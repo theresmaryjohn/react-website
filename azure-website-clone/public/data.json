@@ -1,0 +1,164 @@
+{
+  "datas": [
+    {
+      "img-url-mobile": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-Hero-homepage?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1038&qlt=85&fit=constrain",
+      "img-url-desktop": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-Hero-homepage?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2076&qlt=85&fit=constrain",
+      "head-azure": "AZURE,INVENT WITH PURPOSE.",
+      "head-AI": "AI-powered innovation—accelerated with Azure",
+      "text-start": "Start building AI solutions today using the latest models and your favorite Azure tools. Pay-as-you-go or try Azure free for up to 30 days. There’s no upfront commitment—cancel anytime."
+    },
+    {
+      "future-ready": [
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/EZ-Button-0001?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=600&hei=300&qlt=100&fit=constrain",
+          "heading": "Microsoft Build—register now for May 23–25",
+          "text": "Broaden your knowledge and advance your skills with deep, interactive sessions for developers."
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/EZ-Button-2?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1200&qlt=100&fit=constrain",
+          "heading": "Build innovative AI solutions",
+          "text": "Access sophisticated vision, speech, language, and decision-making AI models and create your own machine learning models."
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/EZ-Button-3?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2400&qlt=100&fit=constrain",
+          "heading": "Achieve more with Azure",
+          "text": "Migrate your infrastructure, apps, and data to the cloud—and access tools, resources, and expertise to help you modernize your apps and get the most out of your cloud investments."
+        }
+      ]
+    },
+    {
+      "ideas-action": [
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/OpenAI-icon?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+          "text": "Apply advanced coding and language models to a variety of use cases.",
+          "heading": "Azure OpenAI Service"
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SQL?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+          "text": "Migrate and modernize with managed Azure SQL cloud databases. ",
+          "heading": "Azure SQL"
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/cognitive-services?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+          "text": "Use AI to analyze content in images and video.",
+          "heading": "Azure Cognitive Service for Vision"
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/machine-learning-service-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=80&qlt=100&fit=constrain",
+          "text": "Use an enterprise-grade service for the end-to-end machine learning lifecycle.",
+          "heading": "Azure Machine Learning"
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-migrate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+          "text": "Simplify migration and modernization with a unified platform.",
+          "heading": "Azure Migrate"
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-defender?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+          "text": "Protect multicloud and hybrid environments with integrated security from code to cloud.",
+          "heading": "Microsoft Defender for Cloud"
+        }
+      ]
+    },
+    {
+      "customers-innovating": [
+        {
+          "icon-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/NBA_25_58?wid=192&hei=60&fit=crop",
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/customer_nba?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3632&qlt=100&fit=constrain",
+          "text": " The NBA used Azure to deliver innovative experiences that keep fans engaged and help referees make consistent calls across all games"
+        },
+        {
+          "icon-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/HR-block?wid=192&hei=60&fit=crop",
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/customer_nba?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3632&qlt=100&fit=constrain",
+          "text": " H&R Block optimizes the tax return process using Azure AI and Azure Machine Learning to quickly digitize data from forms"
+        },
+        {
+          "icon-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/home_nhs-logo?wid=192&hei=60&fit=crop",
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/nhs-home-customerstory?resMode=sharp2&op_usm=1.5,0.65,15,0&hei=600&qlt=75",
+          "text": " North Umbria Healthcare NHS Foundation Trust is helping doctors turn data into medical insights with Azure Machine Learning and the Responsible AL Dashboard"
+        },
+        {
+          "icon-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Fujitsu_img?wid=192&hei=60&fit=crop",
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Fujitsu-banner?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=100&fit=constrain",
+          "text": " Fujitsu increased efficiency and reduced costs by migrating its on-premises datacenters to Azure and by modernizing with cloud-first strategy"
+        },
+        {
+          "icon-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Forza?wid=192&hei=60&fit=crop",
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/forza-horizon-customerstory?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&qlt=100&fit=constrain",
+          "text": " Turn 10 Studios created a turbocharged gaming architechture for Forza Horizon 5 using Azure Kubernetes Service (AKS) and other Azure Services"
+        },
+        { "button1": "Case Study >" },
+        { "button2": "See how customers are putting Azure AI to work >" }
+      ]
+    },
+    {
+      "accelerate": [
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/home_accelerate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=500&hei=400&qlt=75&fmt=png-alpha&fit=crop",
+          "text": "Accelerate your migration and modernization with Azure",
+          "button-text": "explore help and tools"
+        }
+      ]
+    },
+    {
+      "discover": [
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/discover-img-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1200&hei=600&qlt=100&fit=constrain",
+          "heading": "AZURE OPENAI SERVICE",
+          "text": "Start building with ChatGPT—now available through Azure OpenAI Service."
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/discover-img-2?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1572&hei=886&qlt=100&fit=constrain",
+          "heading": "MICROSOFT AI",
+          "text": "See how Microsoft is making the promise of AI real with advancements grounded in our mission to help every person on the planet achieve more."
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/discover-img-03?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1840&qlt=100&fit=constrain",
+          "heading": "AZURE MIGRATE",
+          "text": "Easily migrate to Azure and upgrade in place your workloads reaching end-of-support in Windows Server 2012 R2 or later."
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/discover-img-cost-optimization?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=600&hei=300&qlt=100&fit=constrain",
+          "heading": "WORKLOAD EFFICIENCY",
+          "text": "Quickly apply cost optimization recommendations using the new virtual machine rightsizing capability."
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/discover-card5?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=786&hei=443&qlt=100&fit=constrain",
+          "heading": "AZURE GLOBAL INFRASTRUCTURE",
+          "text": "Go beyond the limits of on-premises datacenters with more regions than any other provider."
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/discover-img-4?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1200&qlt=100&fit=constrain",
+          "heading": "MICROSOFT DEFENDER FOR CLOUD",
+          "text": "Protect multicloud environments with antimalware scanning and enhanced data security posture management."
+        },
+        { "button-text": "Learn more >" }
+      ]
+    },
+    {
+      "image-url-cofounder": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/dev-stories-sara-chipps-desktop?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=75&fit=constrain",
+      "text-about": "Sara Chipps, co-founder of Girl Develop It and Jewelbots, and former Director of Public Q&A at Stack Overflow, has helped more than 100,000 women and girls learn to code",
+      "button-watch": "Watch the story(4:15)",
+      "button-stories": "Check out more developer stories >"
+    },
+    {
+      "content-cards": [
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/pricing06?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=48&hei=48&qlt=75&fit=constrain",
+          "heading": "Start building on Azure free",
+          "text": "Get popular services free for 12 months and 55+ other services free always—plus USD 200 credit to use in your first 30 days."
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/home_icon-chat?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=48&hei=48&qlt=75&fit=constrain",
+          "heading": "Connect with a sales specialist",
+          "text": "Chat with or call a sales specialist for personalized guidance."
+        },
+        {
+          "img-url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/book-alt?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=48&hei=48&qlt=75&fit=constrain",
+          "heading": "New to Azure? Learn at your own pace",
+          "text": "Learn the basics of cloud computing and Azure with self-paced modules on Microsoft Learn."
+        }
+      ]
+    }
+  ]
+}
