@@ -1,0 +1,52 @@
+.search img{
+    height: 15px;
+    width: 15px;
+    transform: translateX(-12px);
+}
+.search{
+    padding: 1px 6px;
+    padding-inline-start: 18px;
+}
+.hamburger img{
+    height: 20px;
+    width: 20px;
+    padding: 1px 6px;
+    padding-right: 16px;
+}
+.header-title{
+    font-family: 'Segoe UI 600';
+    font-size: 18px;
+    transform: translateY(-2px);
+}
+.app-header-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;                                                                                                                                                              ;
+    padding:12px;
+    padding-top: 22px;
+}
+.sign-in{
+    padding: 20px;
+    font-size: 14px;
+}
+.header-left{
+    min-width: 130px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateX(5px);
+}
+.microsoft-icon{
+    transform: translateX(-5px);
+}
+
+@media screen and (min-width:768px) {
+
+    .app-header-mobile{
+        display: none;
+    }
+    .app-header-tab{
+        display: flex;
+    }
+
+}

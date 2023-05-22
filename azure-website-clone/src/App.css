@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+ box-sizing: border-box;
+ margin: 0;
 }
 
 .App-logo {
@@ -11,6 +12,24 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+@font-face {
+
+  font-family: 'Segoe UI';
+  src: url("assets/SegoeUI-Roman-VF.woff2") format("truetype");
+
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Segoe UI 400';
+  src: url("assets/SegoeUI-Roman-VF.woff2") format("truetype");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'Segoe UI 600';
+  src: url("assets/SegoeUI-Roman-VF.woff2") format("truetype");
 }
 
 .App-header {
