@@ -1,5 +1,5 @@
 {
-  "datas": [
+  "datas":
     {
       "imgurlmobile": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-Hero-homepage?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1038&qlt=85&fit=constrain",
       "imgurldesktop": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-Hero-homepage?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2076&qlt=85&fit=constrain",
@@ -7,7 +7,8 @@
       "headAI": "AI-powered innovation—accelerated with Azure",
       "textstart": "Start building AI solutions today using the latest models and your favorite Azure tools. Pay-as-you-go or try Azure free for up to 30 days. There’s no upfront commitment—cancel anytime."
     },
-    {
+
+
       "futureready": [
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/EZ-Button-0001?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=600&hei=300&qlt=100&fit=constrain",
@@ -24,9 +25,8 @@
           "heading": "Achieve more with Azure",
           "text": "Migrate your infrastructure, apps, and data to the cloud—and access tools, resources, and expertise to help you modernize your apps and get the most out of your cloud investments."
         }
-      ]
-    },
-    {
+      ],
+
       "ideasaction": [
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/OpenAI-icon?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
@@ -58,9 +58,7 @@
           "text": "Protect multicloud and hybrid environments with integrated security from code to cloud.",
           "heading": "Microsoft Defender for Cloud"
         }
-      ]
-    },
-    {
+      ],
       "customersinnovating": [
         {
           "iconurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/NBA_25_58?wid=192&hei=60&fit=crop",
@@ -89,18 +87,16 @@
         },
         { "button1": "Case Study >" },
         { "button2": "See how customers are putting Azure AI to work >" }
-      ]
-    },
-    {
+      ],
+
       "accelerate": [
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/home_accelerate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=500&hei=400&qlt=75&fmt=png-alpha&fit=crop",
           "text": "Accelerate your migration and modernization with Azure",
           "button-text": "explore help and tools"
         }
-      ]
-    },
-    {
+      ],
+
       "discover": [
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/discover-img-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1200&hei=600&qlt=100&fit=constrain",
@@ -133,15 +129,15 @@
           "text": "Protect multicloud environments with antimalware scanning and enhanced data security posture management."
         },
         { "button-text": "Learn more >" }
-      ]
-    },
-    {
+      ],
+
+      "coFounder": {
       "imageurlcofounder": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/dev-stories-sara-chipps-desktop?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=75&fit=constrain",
       "textabout": "Sara Chipps, co-founder of Girl Develop It and Jewelbots, and former Director of Public Q&A at Stack Overflow, has helped more than 100,000 women and girls learn to code",
       "buttonwatch": "Watch the story(4:15)",
       "buttonstories": "Check out more developer stories >"
     },
-    {
+
       "contentcards": [
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/pricing06?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=48&hei=48&qlt=75&fit=constrain",
@@ -160,5 +156,4 @@
         }
       ]
     }
-  ]
-}
+

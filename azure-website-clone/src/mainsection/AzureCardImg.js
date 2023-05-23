@@ -6,11 +6,12 @@ import React, { useState,useEffect } from 'react'
 
     const fetchData=()=>{
       fetch("https://raw.githubusercontent.com/theresmaryjohn/react-website/main/azure-website-clone/public/data.json")
-      .then(response=>{
-        return response.json;
+      .then((response)=>{
+        return response.json();
       })
-      .then(data=>{
-        setData(data)
+      .then((data)=>{
+       console.log(data);
+       setData(data.datas)
       })
     }
 
@@ -21,7 +22,7 @@ import React, { useState,useEffect } from 'react'
 
   return (
     <div className='mainCard'>
-      <div className='cardImg'><img></img></div>
+      <img src={data.imgurlmobile} />
     </div>
   )
 }
