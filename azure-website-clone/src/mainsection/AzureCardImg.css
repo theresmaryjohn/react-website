@@ -1,0 +1,23 @@
+.card-img-text img{
+    width: 100%;
+}
+.main-head{
+    font-family: 'Segoe UI 600';
+    font-size: 16px;
+    color: #0078d4;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.main-head-two{
+    font-family: 'Segoe UI 600';
+    font-size: 29px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    width: 60%;
+}
+
+.mainCard{
+    padding-block: 34px;
+    padding-inline: 12px;
+
+}
