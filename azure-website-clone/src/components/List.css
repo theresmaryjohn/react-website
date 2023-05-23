@@ -1,0 +1,16 @@
+.list-item img{
+    height: 3px;
+    width: 6px;
+    transform: translateY(-1px);
+}
+.app-list{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    transform: translateY(-1px);
+}
+.list-item{
+    padding-inline: 5px;
+    font-size: 13px;
+    padding: 20px 9px;
+}
