@@ -1,6 +1,8 @@
 
 import './App.css';
 import Header from './components/Header';
+import FetchData from './mainsection/FetchData';
+
 
 function App() {
   return (
