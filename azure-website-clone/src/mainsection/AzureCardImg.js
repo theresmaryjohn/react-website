@@ -19,10 +19,11 @@ function AzureCardImg() {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  },[]);
 
   return (
     <div className="mainCard-section">
+      {/* <img className="card-img-text-lap" src={data.imgurldesktop} /> */}
       <div className="card-img-text">
         <img src={data.imgurlmobile} />
         <div className="mainCard">
@@ -35,8 +36,9 @@ function AzureCardImg() {
           </div>
         </div>
       </div>
-      <div className="card-img-text-lap">
-      <img src={data.imgurldesktop} />
+      <div
+        className="card-img-text-lap"
+        style={{background: `url('${data.imgurldesktop}') 45% 0% / cover no-repeat` }}>
         <div className="mainCard">
           <h1 className="main-head">{data.headazure}</h1>
           <h1 className="main-head-two">{data.headAI}</h1>
