@@ -65,13 +65,10 @@
 
   .main-head-two {
     font-size: 3.125rem;
-    /* width: 42%; */
 
   }
   .mainCard {
     margin-inline: 8%;
-    /* max-width: 1330px; */
-    /* margin-inline: auto; */
     padding-bottom: 58px;
     padding-block: 81px;
   }
