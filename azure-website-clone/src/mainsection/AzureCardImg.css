@@ -74,6 +74,7 @@
     margin-inline: 8%;
     padding-bottom: 58px;
     padding-block: 81px;
+    background-color: transparent;
   }
   .mainCard p {
     width: 48%;
