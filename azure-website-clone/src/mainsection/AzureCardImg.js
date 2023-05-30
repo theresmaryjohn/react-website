@@ -38,7 +38,7 @@ function AzureCardImg() {
       </div>
       <div
         className="card-img-text-lap"
-        style={{background: `url('${data.imgurldesktop}') 45% 0% / cover no-repeat` }}>
+        style={{background: `url('${data.imgurldesktop}') 49% 0% / cover no-repeat` }}>
         <div className="mainCard">
           <h1 className="main-head">{data.headazure}</h1>
           <h1 className="main-head-two">{data.headAI}</h1>

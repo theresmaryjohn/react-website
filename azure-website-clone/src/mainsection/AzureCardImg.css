@@ -10,6 +10,7 @@
   font-size: 16px;
   color: white;
   text-align: left;
+  margin-top: -12px;
 }
 .main-head-two {
   font-family: "Segoe UI 600";
@@ -21,6 +22,7 @@
 .mainCard {
   padding-block: 60px;
   padding-inline: 12px;
+  padding-bottom: 71px;
   background-color: black;
   color: white;
   position: relative;
@@ -34,8 +36,8 @@
   transform: translateY(15px);
 }
 .getstarted {
-  background-color: #0078d4;
-  color: white;
+  background-color: #50e6ff;
+  color: #000;
   font-weight: 600;
   border: 0.12rem solid transparent;
   border-radius: 0.125rem;
@@ -56,6 +58,15 @@
 .card-img-text-lap {
   display: none;
 }
+@media screen and (min-width: 1024px){
+  .mainCard{
+    padding-inline: 62px;
+  }
+  .main-head-two{
+    margin-top: 0px;
+  }
+
+}
 @media screen and (min-width: 1440px) {
   .card-img-text {
     display: none;
@@ -65,19 +76,38 @@
     position: relative;
     height: 100%;
     width: 100%;
+    padding-bottom: 23px;
   }
 
   .main-head-two {
     font-size: 3.125rem;
     width: 40%;
+    margin-top: 22px;
   }
   .mainCard {
-    margin-inline: 8%;
-    padding-bottom: 58px;
-    padding-block: 81px;
+    margin-inline: 5%;
+    padding-block: 102px;
     background-color: transparent;
+    position: relative;
+    bottom: -6px;
+    left: -15px;
   }
   .mainCard p {
-    width: 48%;
+    width: 38%;
+    margin-top: 26px;
   }
+}
+@media screen and (min-width: 1820px){
+  .mainCard{
+    padding-block-start: 131px;
+    padding-block-end: 123px;
+
+  }
+  .card-img-text-lap{
+    padding-bottom: 64px;
+  }
+  .mainCard p{
+    width: 39%;
+  }
+
 }
