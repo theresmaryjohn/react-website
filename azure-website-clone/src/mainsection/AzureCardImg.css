@@ -21,8 +21,6 @@
 .mainCard {
   padding-block: 60px;
   padding-inline: 12px;
-  max-width: 905px;
-  margin-inline: auto;
   background-color: black;
   color: white;
   position: relative;
@@ -71,6 +69,7 @@
 
   .main-head-two {
     font-size: 3.125rem;
+    width: 40%;
   }
   .mainCard {
     margin-inline: 8%;
