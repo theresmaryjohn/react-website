@@ -12,13 +12,31 @@ function AzureCloud() {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
-        setData(data.datas);
+        setData(data.futureready);
       });
   };
 
   useEffect(() => {
     fetchData();
-  },[]);
+  }, []);
+
+  return (
+    <div className="cloudSection">
+      <h2 className="cloudHeader">
+        On-premises, hybrid, multicloud, or at the edge—create secure,
+        future-ready cloud solutions on Azure
+      </h2>
+      <div className="cloudCards">
+        {data.map((item, index) => {
+          console.log(item.heading);
+          <li key={index}>
+            <img>{item.imgurl}</img>
+            <span>{item.heading}</span>
+            <p>{item.text}</p>
+          </li>;
+        })}
+      </div>
+    </div>
+  );
 }
 export default AzureCloud;

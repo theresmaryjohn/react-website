@@ -85,8 +85,9 @@
     margin-top: 22px;
   }
   .mainCard {
-    margin-inline: 5%;
+    margin-inline:5%;
     padding-block: 102px;
+    padding-inline: 10%;
     background-color: transparent;
     position: relative;
     bottom: -6px;
@@ -97,10 +98,10 @@
     margin-top: 26px;
   }
 }
-@media screen and (min-width: 1820px){
+@media screen and (min-width: 1910px){
   .mainCard{
-    padding-block-start: 131px;
-    padding-block-end: 123px;
+    padding-block: 140px;
+    margin-inline: 0px;
 
   }
   .card-img-text-lap{

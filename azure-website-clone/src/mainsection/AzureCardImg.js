@@ -12,7 +12,6 @@ function AzureCardImg() {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
         setData(data.datas);
       });
   };
