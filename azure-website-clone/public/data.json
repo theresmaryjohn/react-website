@@ -27,7 +27,7 @@
         }
       ],
 
-      "ideasaction": [
+      "featured": [
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/OpenAI-icon?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
           "text": "Apply advanced coding and language models to a variety of use cases.",
@@ -57,6 +57,171 @@
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-defender?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
           "text": "Protect multicloud and hybrid environments with integrated security from code to cloud.",
           "heading": "Microsoft Defender for Cloud"
+        }
+      ],
+
+      "machinelearning": [
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/machine-learning-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Build, train, and deploy machine learning",
+          "heading": "Azure Machine Learning"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/cognitive-services?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Add cognitive capabilities to apps with APIs ",
+          "heading": "Azure Cognitive Services"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-applied-ai-services?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Quickly deploy AI solutions for common business processes",
+          "heading": "Azure Applied Al Services"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/cognitive-search?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Add AI-powered content search to apps",
+          "heading": "Azure Cognitive Search"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/bot-services?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Add AI-powered content search to apps",
+          "heading": "Azure Bot Service"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/home_openai-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Protect multicloud and hybrid environments with integrated security from code to cloud.",
+          "heading": "Azure OpenAI Service"
+        }
+      ],
+
+      "compute": [
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/virtual-machines?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Apply advanced coding and language models to a variety of use cases.",
+          "heading": "Azure Virtual Machines"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/vm-linux?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Provision VMs for Ubuntu, Red Hat, SUSE, and other popular distributions",
+          "heading": "Linux virtual machines (VMs) in Azure"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/vm-sql-server?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Use AI to analyze content in images and video.",
+          "heading": "SQL Server on Azure Virtual Machines"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/vm-windows?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Use an enterprise-grade service for the end-to-end machine learning lifecycle.",
+          "heading": "Windows Virtual Machines"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/functions?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Simplify migration and modernization with a unified platform.",
+          "heading": "Azure Migrate"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/app-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Protect multicloud and hybrid environments with integrated security from code to cloud.",
+          "heading": "Azure App Services"
+        }
+      ],
+
+      "containers": [
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/app-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Quickly create powerful cloud apps for web and mobile",
+          "heading": "Azure App Services"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/functions?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Trigger apps with serverless computing ",
+          "heading": "Azure Functions"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/kubernetes-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Build and scale apps with managed Kubernetes",
+          "heading": "Azure Kubernetes Service (AKS)"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/container-instances?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Use an enterprise-grade service for the end-to-end machine learning lifecycle.",
+          "heading": "Azure Container Instances"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/openshift?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Build, deploy, and scale apps on fully managed OpenShift clusters",
+          "heading": "Azure Red Hat OpenShift"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-spring-cloud?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Bring modern microservice patterns to Spring Boot apps",
+          "heading": "Azure Spring Cloud"
+        }
+      ],
+
+      "hybrid": [
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-arc?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Unify on-premises, hybrid, and cross-cloud infrastructure",
+          "heading": "Azure Arc"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-stack?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Build apps across on-premises, cloud, and the edge",
+          "heading": "Azure Stack"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-sentinel?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Stop threats with intelligent security analytics",
+          "heading": "Azure Sentinel"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/security-center?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Extend threat protection to any infrastructure",
+          "heading": "Azure Security Center"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/expressroute?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Create secure, private clouds",
+          "heading": "Azure ExpressRoute"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/active-directory?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Enable single sign-on and multifactor identification",
+          "heading": "Azure Active Directory (Azure AD)"
+        }
+      ],
+
+      "internet": [
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-central-alt-2?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Build IoT solutions on a hosted platform",
+          "heading": "Azure IoT Central"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-edge?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Deploy cloud intelligence on local edge devices ",
+          "heading": "Azure IoT Edge"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-hub?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Authenticate communication across devices, edge, and cloud",
+          "heading": "Azure IoT Hub"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/digital-twins?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Create models of physical environments",
+          "heading": "Azure Digital Twins"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-sphere?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Secure your IoT hardware and software",
+          "heading": "Azure Sphere"
+        },
+        {
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/time-series-insights?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+          "text": "Visualize IoT data in real time",
+          "heading": "Azure Time Series Insights"
         }
       ],
       "customersinnovating": [

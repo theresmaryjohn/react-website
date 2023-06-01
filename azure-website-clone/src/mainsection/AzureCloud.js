@@ -27,14 +27,20 @@ function AzureCloud() {
         future-ready cloud solutions on Azure
       </h2>
       <div className="cloudCards">
-        {data.map((item, index) => {
-          console.log(item.heading);
-          <li key={index}>
-            <img>{item.imgurl}</img>
+        {data.map((item, index) =>(
+          <tr key={index}>
+            <img src={item.imgurl} alt=""/>
+            <div className="cloudText">
             <span>{item.heading}</span>
             <p>{item.text}</p>
-          </li>;
-        })}
+            </div>
+          </tr>
+        ))}
+      </div>
+      <div className="cloudButtons">
+        <p> New to Azure?&nbsp;
+           <a href="https://azure.microsoft.com/en-in/explore/">Get an overview</a>
+        </p>
       </div>
     </div>
   );
