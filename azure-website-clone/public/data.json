@@ -30,33 +30,33 @@
       "featured": [
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/OpenAI-icon?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
-          "text": "Apply advanced coding and language models to a variety of use cases.",
+          "text": "Apply advanced coding and language models to a variety of use cases",
           "heading": "Azure OpenAI Service"
         },
         {
-          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SQL?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
-          "text": "Migrate and modernize with managed Azure SQL cloud databases. ",
-          "heading": "Azure SQL"
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/dev-box?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+          "text": "Streamline development with secure, ready-to-code workstations in the cloud",
+          "heading": "Mcrosoft Dev Box"
         },
         {
-          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/cognitive-services?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
-          "text": "Use AI to analyze content in images and video.",
-          "heading": "Azure Cognitive Service for Vision"
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/virtual-machines-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=80&qlt=100&fit=constrain",
+          "text": "Create Linux and Windows virtual machines in seconds",
+          "heading": "Azure Virtual Machines"
         },
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/machine-learning-service-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=80&qlt=100&fit=constrain",
-          "text": "Use an enterprise-grade service for the end-to-end machine learning lifecycle.",
+          "text": "Use an enterprise-grade service for the end-to-end machine learning lifecycle",
           "heading": "Azure Machine Learning"
         },
         {
-          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-migrate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
-          "text": "Simplify migration and modernization with a unified platform.",
-          "heading": "Azure Migrate"
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-devops?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+          "text": "Share code, track work, and ship software with modern dev services",
+          "heading": "Azure DevOps"
         },
         {
-          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-defender?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
-          "text": "Protect multicloud and hybrid environments with integrated security from code to cloud.",
-          "heading": "Microsoft Defender for Cloud"
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/deployment-environment?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=80&qlt=100&fmt=png-alpha&fit=constrain",
+          "text": "Quickly spin up app infrastructure environments with project-based templates",
+          "heading": "Azure Deployment Environment"
         }
       ],
 
