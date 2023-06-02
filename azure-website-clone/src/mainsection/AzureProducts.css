@@ -41,11 +41,11 @@
     padding-bottom: 1.5rem;
 }
 .azureText span{
-    padding: 1.5rem;
     color: #0067b8;
     font-family: "Segoe UI 600";
     font-size: 18px;
     text-decoration: underline;
+    padding: 6px;
 }
 @media screen and (min-width:1024px) {
     .container{

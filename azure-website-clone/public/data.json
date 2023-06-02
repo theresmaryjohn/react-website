@@ -226,32 +226,36 @@
       ],
       "customersinnovating": [
         {
+          "iconurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Fujitsu_img?wid=192&hei=60&fit=crop",
+          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Fujitsu-banner?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=100&fit=constrain",
+          "text": " Fujitsu increased efficiency and reduced costs by migrating its on-premises datacenters to Azure and by modernizing with cloud-first strategy",
+          "id":1
+        },
+        {
           "iconurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/NBA_25_58?wid=192&hei=60&fit=crop",
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/customer_nba?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3632&qlt=100&fit=constrain",
-          "text": " The NBA used Azure to deliver innovative experiences that keep fans engaged and help referees make consistent calls across all games"
+          "text": " The NBA used Azure to deliver innovative experiences that keep fans engaged and help referees make consistent calls across all games",
+          "id":2
         },
         {
           "iconurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/HR-block?wid=192&hei=60&fit=crop",
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/customer_nba?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3632&qlt=100&fit=constrain",
-          "text": " H&R Block optimizes the tax return process using Azure AI and Azure Machine Learning to quickly digitize data from forms"
+          "text": " H&R Block optimizes the tax return process using Azure AI and Azure Machine Learning to quickly digitize data from forms",
+          "id":3
         },
         {
           "iconurl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/home_nhs-logo?wid=192&hei=60&fit=crop",
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/nhs-home-customerstory?resMode=sharp2&op_usm=1.5,0.65,15,0&hei=600&qlt=75",
-          "text": " North Umbria Healthcare NHS Foundation Trust is helping doctors turn data into medical insights with Azure Machine Learning and the Responsible AL Dashboard"
+          "text": " North Umbria Healthcare NHS Foundation Trust is helping doctors turn data into medical insights with Azure Machine Learning and the Responsible AL Dashboard",
+          "id":4
         },
-        {
-          "iconurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Fujitsu_img?wid=192&hei=60&fit=crop",
-          "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Fujitsu-banner?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=100&fit=constrain",
-          "text": " Fujitsu increased efficiency and reduced costs by migrating its on-premises datacenters to Azure and by modernizing with cloud-first strategy"
-        },
+
         {
           "iconurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Forza?wid=192&hei=60&fit=crop",
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/forza-horizon-customerstory?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&qlt=100&fit=constrain",
-          "text": " Turn 10 Studios created a turbocharged gaming architechture for Forza Horizon 5 using Azure Kubernetes Service (AKS) and other Azure Services"
-        },
-        { "button1": "Case Study >" },
-        { "button2": "See how customers are putting Azure AI to work >" }
+          "text": " Turn 10 Studios created a turbocharged gaming architechture for Forza Horizon 5 using Azure Kubernetes Service (AKS) and other Azure Services",
+          "id":5
+        }
       ],
 
       "accelerate": [

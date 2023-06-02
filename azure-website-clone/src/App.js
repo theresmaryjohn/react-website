@@ -1,5 +1,6 @@
 
 import './App.css';
+import AzureInnovating from './components/AzureInnovating';
 import Header from './components/Header';
 import AzureCardImg from './mainsection/AzureCardImg';
 import AzureCloud from './mainsection/AzureCloud';
@@ -14,6 +15,7 @@ function App() {
       <AzureCardImg/>
       <AzureCloud/>
       <AzureServices/>
+      <AzureInnovating/>
     </div>
   );
 }

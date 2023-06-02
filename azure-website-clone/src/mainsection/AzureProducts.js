@@ -9,7 +9,7 @@ function AzureProducts() {
   const [hybrid, setHybrid] = useState([]);
   const [internet, setInternet] = useState([]);
   const [show, setShow] = useState("feature");
-  const [isActive, setIsActive] = useState(false);
+  // const [isActive, setIsActive] = useState(false);
 
   const fetchData = () => {
     fetch(
