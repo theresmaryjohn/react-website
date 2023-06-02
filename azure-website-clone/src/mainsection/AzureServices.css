@@ -15,6 +15,7 @@
     font-size: 16px;
     font-family: "Segoe UI 600";
     padding-inline: 12px;
+    padding-block: 24px;
 }
 
 @media screen and (min-width:1024px) {

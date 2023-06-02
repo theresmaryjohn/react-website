@@ -21,15 +21,18 @@ function AzureInnovating() {
   useEffect(() => {
     fetchData();
   }, []);
-  function handleClick() {}
+//   function handleClick() {}
 
   return (
     <div>
+        <div className="innovationHead">
+            Find out how these customers are innovating with Azure
+        </div>
       <div className="azureInnovation">
         {icon.map((item, id) => (
           <div className="customers" key={id}>
             <div>
-              <img onClick={handleClick} src={item.iconurl} alt="" />
+              <img src={item.iconurl} alt="" />
             </div>
           </div>
         ))}
@@ -39,6 +42,8 @@ function AzureInnovating() {
           <div className="azureCard" key={id}>
             <img src={item.imgurl} alt="" />
             <span>{item.text}</span>
+            <a className="caseStudy">{item.caseurl}</a>
+            <a className="work">{item.customerswork}</a>
           </div>
         ))}
       </div>
