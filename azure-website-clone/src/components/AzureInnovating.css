@@ -1,5 +1,9 @@
-.azureCard img{
+.azureCustomers img{
     width: 100%;
+}
+.azureCustomers{
+    display: flex;
+    flex-direction: column;
 }
 .azureInnovation{
     display: flex;
@@ -8,6 +12,24 @@
 }
 .azureInnovation::-webkit-scrollbar{
     display: none;
+}
+.azureCustomers span{
+    font-size: 18px;
+    font-family: "Segoe UI 600";
+    color: white;
+}
+.caseStudy,
+.work{
+    font-size:  16px;
+    color: #50e6ff;
+    font-family: 'Segoe UI 600';
+}
+.textArea{
+    padding-block: 48px;
+    padding-inline: 12px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
 }
 .innovationHead{
     padding-block-start: 48px;
