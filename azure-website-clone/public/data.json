@@ -287,13 +287,12 @@
 
       ],
 
-      "accelerate": [
+      "accelerate":
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/home_accelerate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=500&hei=400&qlt=75&fmt=png-alpha&fit=crop",
           "text": "Accelerate your migration and modernization with Azure",
           "button-text": "explore help and tools"
-        }
-      ],
+        },
 
       "discover": [
         {
