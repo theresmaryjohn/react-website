@@ -28,7 +28,7 @@ function Mordernization() {
         </div>
         <div className="textButton">
             <h2>{data.text}</h2>
-            <a href="https://azure.microsoft.com/en-in/solutions/migration/">{data.buttontext}</a>
+           <span> <a href="https://azure.microsoft.com/en-in/solutions/migration/">{data.buttontext}</a></span>
         </div>
 
     </div>
