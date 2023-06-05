@@ -40,11 +40,11 @@
 }
 
 @media screen and (min-width:768px) {
-    .imgmodernization img{
+    .imgmodernization{
         display: none;
     }
-    .imgmodernizationmob img{
-        display: inline-block;
+    .imgmodernizationmob {
+        display: block;
     }
 
 }

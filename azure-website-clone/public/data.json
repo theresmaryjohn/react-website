@@ -290,6 +290,7 @@
       "accelerate":
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/home_accelerate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=500&hei=400&qlt=75&fmt=png-alpha&fit=crop",
+          "imgurlmob":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/home_accelerate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=500&hei=400&qlt=75&fmt=png-alpha&fit=crop",
           "text": "Accelerate your migration and modernization with Azure",
           "buttontext": "Explore help and tools"
         },
@@ -297,7 +298,6 @@
       "discover": [
         {
           "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/discover-img-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1200&hei=600&qlt=100&fit=constrain",
-          "imgurlmob":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/home_accelerate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=500&hei=400&qlt=75&fmt=png-alpha&fit=crop",
           "heading": "AZURE OPENAI SERVICE",
           "text": "Start building with ChatGPT—now available through Azure OpenAI Service."
         },
