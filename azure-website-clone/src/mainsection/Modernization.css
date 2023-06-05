@@ -1,14 +1,23 @@
-.imgmordernization img{
+.imgmodernization img{
     width: 100%;
+}
+.imgmodernizationmob img{
+    display: none;
 }
 .modernization{
     background-color: #f8f9fa;
     width: 100%;
+    padding-bottom: 20px;
+
+}
+.containerModernization{
     padding-bottom:48px ;
+
 }
 .textButton{
     padding: 24px;
 }
+
 .textButton h2{
     margin-bottom: 12px;
     margin-top: 0px;
@@ -28,4 +37,14 @@
     margin-top: 24px;
     position: relative;
    top: 21px;
+}
+
+@media screen and (min-width:768px) {
+    .imgmodernization img{
+        display: none;
+    }
+    .imgmodernizationmob img{
+        display: inline-block;
+    }
+
 }

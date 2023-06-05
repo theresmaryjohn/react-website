@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./Mordernization.css";
+import "./Modernization.css";
 
-function Mordernization() {
+function Modernization() {
   const [data, setData] = useState([]);
 
 
@@ -22,9 +22,13 @@ function Mordernization() {
   }, []);
 
   return(
+    <div className="containerModernization">
     <div className="modernization">
-        <div className="imgmordernization">
+        <div className="imgmodernization">
             <img src={data.imgurl}/>
+        </div>
+        <div className="imgmodernizationmob">
+            <img src={data.imgurlmob}/>
         </div>
         <div className="textButton">
             <h2>{data.text}</h2>
@@ -32,6 +36,7 @@ function Mordernization() {
         </div>
 
     </div>
+    </div>
   )
 }
-export default Mordernization;
+export default Modernization;
