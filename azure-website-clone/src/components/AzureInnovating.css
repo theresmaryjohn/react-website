@@ -8,7 +8,7 @@
 .azureInnovation{
     display: flex;
     overflow: scroll;
-    padding-bottom: 8px;
+    padding-bottom: 36px;
     height: 113px;
 }
 .azureInnovation::-webkit-scrollbar{

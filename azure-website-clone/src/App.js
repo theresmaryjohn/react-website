@@ -5,6 +5,7 @@ import Header from './components/Header';
 import AzureCardImg from './mainsection/AzureCardImg';
 import AzureCloud from './mainsection/AzureCloud';
 import AzureServices from './mainsection/AzureServices';
+import Mordernization from './mainsection/Mordernization';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <AzureCloud/>
       <AzureServices/>
       <AzureInnovating/>
+      <Mordernization/>
     </div>
   );
 }
