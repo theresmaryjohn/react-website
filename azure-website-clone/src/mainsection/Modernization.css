@@ -1,17 +1,13 @@
 .imgmodernization img{
     width: 100%;
 }
-.imgmodernizationmob img{
-    display: none;
-}
-.modernization{
+.containerModernization{
     background-color: #f8f9fa;
-    width: 100%;
-    padding-bottom: 20px;
 
 }
-.containerModernization{
-    padding-bottom:48px ;
+.modernization{
+    width: 100%;
+    padding-bottom: 48px;
 
 }
 .textButton{
@@ -38,13 +34,37 @@
     position: relative;
    top: 21px;
 }
+@media screen and (min-width:1024px) {
+    .modernization{
+        display: flex;
+        align-items: center;
 
-@media screen and (min-width:768px) {
-    .imgmodernization{
-        display: none;
     }
-    .imgmodernizationmob {
-        display: block;
+    .containerModernization{
+        position:relative;
+        bottom: 57px;
     }
+}
+@media screen and (min-width:1440px) {
 
+    .imgmodernization img{
+        width:580px;
+        padding-inline-start: 72px;
+    }
+    .containerModernization{
+        position: relative;
+        bottom: 181px;
+    }
+    .modernization{
+        max-width: 1600px;
+        margin-inline: auto;
+        padding-block-start: 48px;
+    }
+    .textButton h2{
+        font-size: 37px;
+        width: 85%;
+    }
+    .textButton{
+        padding: 48px;
+    }
 }

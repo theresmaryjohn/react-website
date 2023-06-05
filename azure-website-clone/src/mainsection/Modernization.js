@@ -27,9 +27,6 @@ function Modernization() {
         <div className="imgmodernization">
             <img src={data.imgurl}/>
         </div>
-        <div className="imgmodernizationmob">
-            <img src={data.imgurlmob}/>
-        </div>
         <div className="textButton">
             <h2>{data.text}</h2>
            <span> <a href="https://azure.microsoft.com/en-in/solutions/migration/">{data.buttontext}</a></span>
