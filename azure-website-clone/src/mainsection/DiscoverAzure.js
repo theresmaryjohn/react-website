@@ -24,11 +24,16 @@ function DiscoverAzure() {
     <div className="discover">
         <h2>Discover what's happening on Azure</h2>
         <div className="discoverContainer" >
-            {data.map((item,index)=>{
+            {data.map((item,index)=>(
                 <div className="discoverCards" key={index}>
                     <img src={item.imgurl}/>
+                    <div className="textsContainer">
+                    <h3>{item.heading}</h3>
+                    <p>{item.text}</p>
+                    <a href="https://azure.microsoft.com/en-in/solutions/ai/">{item.buttontext}</a>
+                    </div>
                 </div>
-            })}
+            ))}
         </div>
     </div>
   )

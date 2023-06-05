@@ -1,0 +1,68 @@
+.discoverCards img{
+    width: 100%;
+}
+.discover h2{
+    padding-inline: 12px;
+    padding-block: 24px;
+    font-size: 19px;
+    font-family: "Segoe UI 600";
+}
+.discoverContainer{
+    padding-inline: 24px;
+}
+.discoverCards{
+    color: #000;
+    padding-bottom: 48px;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0,0,0,.13), 0 0.0625rem 0.125rem 0 rgba(0,0,0,.11);
+    display: flex;
+    min-width: 1px;
+    flex-direction: column;
+    background-clip: border-box;
+    margin-bottom: 3rem;
+}
+.textsContainer{
+    padding: 24px 24px 0px;
+}
+.textsContainer h3{
+    font-size: 14px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+.textsContainer p{
+    font-size: 16px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    line-height: 1.5;
+}
+.textsContainer a{
+    color: #0067b8;
+    font-size: 16px;
+    font-family: "Segoe UI 600";
+    text-decoration: none;
+}
+@media screen and (min-width:1024px) {
+    .discover h2{
+        text-align: center;
+        padding-block-start: 0px;
+    }
+    .discoverContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+    }
+
+
+}
+@media screen and (min-width:1440px){
+    .discoverContainer{
+        padding-inline: 5%;
+        max-width: 1600px;
+        margin-inline: auto;
+    }
+    .discover{
+        padding-inline: 5%;
+    }
+
+}

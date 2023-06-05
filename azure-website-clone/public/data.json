@@ -329,10 +329,10 @@
     }
   ],
 
-  "coFounder": {
-    "imageurlcofounder": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/dev-stories-sara-chipps-desktop?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=75&fit=constrain",
-    "textabout": "Sara Chipps, co-founder of Girl Develop It and Jewelbots, and former Director of Public Q&A at Stack Overflow, has helped more than 100,000 women and girls learn to code",
-    "buttonwatch": "Watch the story(4:15)",
+  "voiceassistant": {
+    "imageurlcofounder": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/developer-story-beeb-bbc?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=75&fit=constrain",
+    "textabout": "See how software engineer William Walker used his passion for tinkering and Azure Bot Service to develop Beeb, the BBC's branded voice assistant",
+    "buttonwatch": " Watch the story(2:56)",
     "buttonstories": "Check out more developer stories >"
   },
 
