@@ -1,99 +1,95 @@
-.azureCustomers img{
-    width: 100%;
+.azureCustomers img {
+  width: 100%;
 }
-.azureCustomers{
-    display: flex;
-    flex-direction: column;
+.azureCustomers {
+  display: flex;
+  flex-direction: column;
 }
-.azureInnovation{
-    display: flex;
-    overflow: scroll;
-    padding-bottom: 36px;
-    height: 113px;
+.azureInnovation {
+  display: flex;
+  overflow: scroll;
+  padding-bottom: 36px;
+  height: 113px;
 }
-.azureInnovation::-webkit-scrollbar{
-    display: none;
+.azureInnovation::-webkit-scrollbar {
+  display: none;
 }
-.azureCustomers span{
-    font-size: 18px;
-    font-family: "Segoe UI 600";
-    color: white;
+.azureCustomers span {
+  font-size: 18px;
+  font-family: "Segoe UI 600";
+  color: white;
 }
 .caseStudy,
-.work{
-    font-size:  16px;
-    color: #50e6ff;
-    font-family: 'Segoe UI 600';
+.work {
+  font-size: 16px;
+  color: #50e6ff;
+  font-family: "Segoe UI 600";
 }
-.textArea{
-    padding-block: 48px;
-    padding-inline: 12px;
-    background-color: #000;
+.textArea {
+  padding-block: 48px;
+  padding-inline: 12px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+.innovationHead {
+  padding-block-start: 48px;
+  padding-block-end: 24px;
+  margin-block-end: 8px;
+  padding-inline: 8px;
+  font-size: 19px;
+  font-family: "Segoe UI 600";
+}
+@media screen and (min-width: 768px) {
+  .azureCustomers img {
+    width: 100%;
+    height: 260px;
+  }
+  .textArea {
+    height: 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .azureInnovation {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+  }
+  .innovationHead {
+    text-align: center;
+  }
+  .customers {
+    margin-right: 124px;
+  }
 
+  .textArea {
+    position: relative;
+    margin-inline: 29px;
+    bottom: 59px;
+    height: 84px;
+    padding-inline: 58px;
+  }
+  .azureCustomers img {
+    height: 385px;
+  }
 }
-.innovationHead{
-    padding-block-start: 48px;
-    padding-block-end: 24px;
-    margin-block-end: 8px;
-    padding-inline: 8px;
-    font-size: 19px;
-    font-family: "Segoe UI 600";
-}
-@media screen and (min-width:768px) {
-    .azureCustomers img{
-        width: 100%;
-        height: 260px;
-    }
-    .textArea{
-        height: 100px;
-    }
-}
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1440px) {
+  .azureCustomers span {
+    font-size: 21px;
+  }
 
-    .azureInnovation{
-        display: flex;
-        justify-content: space-between;
-    }
-    .innovationHead{
-        text-align: center;
-    }
-    .customers{
-        margin-right: 124px;
-    }
-    .textArea{
-        position: relative;
-        margin-inline: 29px;
-        bottom: 56px;
-        height: 84px;
-        padding-inline: 58px;
-    }
-    .azureCustomers img{
-        height: 385px;
-    }
-
-}
-@media screen and (min-width:1440px) {
-
-    .azureCustomers span{
-        font-size: 21px;
-    }
-
-    .azureCustomers img{
-        height: 642px;
-    }
-   .textArea{
+  .azureCustomers img {
+    height: 642px;
+  }
+  .textArea {
     width: 52%;
     margin-inline: 120px;
     bottom: 237px;
     margin-inline-end: auto;
-   }
-   .azureInnovation{
+  }
+  .azureInnovation {
     display: flex;
     justify-content: center;
     max-width: 1600px;
     margin-inline: auto;
-   }
-
+  }
 }

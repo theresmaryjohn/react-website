@@ -46,6 +46,9 @@
     .discover h2{
         text-align: center;
         padding-block-start: 0px;
+        position: relative;
+        bottom: 48px;
+        font-size: 26px;
     }
     .discoverContainer{
         display: grid;

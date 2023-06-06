@@ -32,8 +32,10 @@ function AzureProducts() {
     fetchData();
   }, []);
 
+
   function handleClickOne() {
     setShow("feature");
+    // const style=setShow("feature")?{borderInlineStart:"2px solid #0067b8",color: "#0067b8"}:"";
   }
   function handleClickTwo() {
     setShow("machine");
@@ -54,12 +56,16 @@ function AzureProducts() {
     <div className="container">
       <div className="productHead">
         <div className="scrollbar">
-          {/* <a style={{
-          borderInlineStart: isActive ? '2px solid #0067b8':' ',
-          color: isActive ? '#0067b8' : ' ',
-        }} onClick={handleClickOne}>Feature</a> */}
+          {/* <a
+              style={{
+              borderInlineStart:isActive ? "2px solid #0067b8" : " ",
+              color: isActive ? "#0067b8" : " ",
+            }}
+            onClick={handleClickOne}>
+            Feature
+          </a> */}
           <a onClick={handleClickOne}>Feature</a>
-          <a onClick={handleClickTwo}>Al + machine learning</a>
+          <a onClick={handleClickTwo}> Al + machine learning</a>
           <a onClick={handleClickThree}>Compute</a>
           <a onClick={handleClickFour}>Containers</a>
           <a onClick={handleClickFive}>Hybrid + multicloud</a>
