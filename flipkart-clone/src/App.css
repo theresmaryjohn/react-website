@@ -12,6 +12,17 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@font-face {
+
+  font-family: 'Roboto';
+  src: url("assets/roboto-r.woff2") format("truetype");
+
+}
+
+@font-face {
+  font-family: 'Roboto-m';
+  src: url("assets/roboto-m.woff2") format("truetype");
+}
 
 .App-header {
   background-color: #282c34;

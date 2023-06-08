@@ -1,0 +1,49 @@
+.banner {
+  width: 100%;
+}
+.offers img {
+  width: 83px;
+  height: 103px;
+}
+.offerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 57px;
+  padding-block: 28px;
+  background: white;
+  width: 290px;
+}
+.textp {
+  font-size: 12px;
+}
+.textprice {
+  font-size: 14px;
+  color: #388e3c;
+}
+.mainOfferContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(rgb(252, 167, 216), rgb(252, 167, 216));
+}
+.grab{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    top: 21px;
+    gap: 133px;
+}
+.grabview{
+    background: #ffff;
+    padding: 8px 12px;
+    color: #515e71;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+}
+.grabtext{
+    color: #ffff;
+}

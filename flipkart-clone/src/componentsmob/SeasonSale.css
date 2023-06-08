@@ -1,0 +1,20 @@
+.saletext{
+    text-align:left;
+    padding-inline-start:18px;
+    padding-block-end: 20px;
+}
+.salehead{
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.salep{
+    color: #878787;
+    font-size: 14px;
+}
+.saleimgContainer{
+    display:flex ;
+    flex-wrap: wrap;
+}
+.saleimg img{
+    width: 106px;
+}
