@@ -14,10 +14,8 @@ function Carousel() {
     categoriesData();
   }, []);
 
-  const length = data?.length;
-
   const CallIndex = () => {
-    setIndex(index === length - 1 ? 0 : index + 1);
+    setIndex(index === data.length - 1 ? 0 : index + 1);
   };
   useEffect(() => {
     setTimeout(CallIndex,2500);

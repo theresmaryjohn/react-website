@@ -2,17 +2,20 @@
   width: 100%;
 }
 .offers img {
-  width: 83px;
-  height: 103px;
+  /* width: 83px;
+  height: 103px; */
+  width: 52%;
+  height: 57%;
+}
+.offers{
+  width: 50%;
 }
 .offerContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 57px;
   padding-block: 28px;
   background: white;
-  width: 290px;
+  width: 90%;
 }
 .textp {
   font-size: 12px;
@@ -32,6 +35,7 @@
     position: absolute;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: row;
     top: 21px;
     gap: 133px;
@@ -46,4 +50,19 @@
 }
 .grabtext{
     color: #ffff;
+}
+@media screen and (min-width:768px){
+.grab{
+  gap: 333px;
+  top: 60px;
+}
+.grabview{
+  font-size: 18px;
+  color: white;
+  background-color: darkblue;
+}
+.grabtext{
+  font-size: 21px;
+  color: black;
+}
 }

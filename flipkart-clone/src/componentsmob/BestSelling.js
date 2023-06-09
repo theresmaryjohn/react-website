@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import fetchData from '../fetchData';
+import './BestSelling.css'
 
 function BestSelling() {
     const [data,setData]=useState([]);
@@ -15,7 +16,7 @@ function BestSelling() {
     <div className="bestSelling" style={{display:'flex',flexDirection:'row'}}>
         {data.map((item,index)=>(
             <div key={index} className='sellingContainer'>
-                <img src={item} style={{width:'160px'}}/>
+                <img src={item}/>
             </div>
         ))}
 
