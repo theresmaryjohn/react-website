@@ -15,6 +15,7 @@ import CarouselD from "./componentsdesktop/CarouselD";
 import Electronics from "./componentsdesktop/Electronics";
 import HealthData from "./componentsdesktop/HealthData";
 import HomeandKitchen from "./componentsdesktop/HomeandKitchen";
+import Fashion from "./componentsdesktop/Fashion";
 
 function Homepage() {
   return (
@@ -38,6 +39,7 @@ function Homepage() {
         <Electronics/>
         <HealthData/>
         <HomeandKitchen/>
+        <Fashion/>
         </div>
       </div>
     </div>
