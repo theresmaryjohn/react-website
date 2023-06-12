@@ -1,4 +1,8 @@
 .card img{
-    width: 100%;
-    height: 640px;
+width: 100%;
+margin-inline-start: 60px;
+}
+.container{
+     width: 100%;
+     height: 100%;
 }

@@ -6,6 +6,12 @@ import img1 from './01.jpg'
 import img2 from './02.jpg'
 import './Carousel.css'
 
+function Arrow(props){
+  const {className,style,onClick}=props;
+  return(
+    <div className={className} style={{...style, display:'block',background:'black'}} onClick={onClick}/>
+  )
+}
 
 function Carousel() {
     const settings = {
@@ -13,10 +19,39 @@ function Carousel() {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        nextArrow:<Arrow/>,
+        prevArrow:<Arrow/>,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 0
+            }
+          },
+          {
+            breakpoint: 320,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
       };
+
   return (
-    <div>
+    <div className='container'>
         <h2> Single Item</h2>
         <Slider {...settings}>
           <div className='card'>
