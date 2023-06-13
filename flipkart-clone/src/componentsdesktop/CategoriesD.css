@@ -1,7 +1,13 @@
+.category{
+
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    background-color: white;
+}
 .categoriesContainer{
     display: flex;
+    max-width: 1450px;
+    margin-inline: auto;
     padding-block: 10px;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16)
 }
 .categories{
     width: 10%;
@@ -16,8 +22,4 @@
 .items{
     font-size: 14px;
     font-family: 'Roboto-m';
-}
-.items img{
-    width: 10px;
-    height: 6px;
 }

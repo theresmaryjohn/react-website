@@ -1,9 +1,14 @@
+@media screen and (min-width:1024px){
 .bestofhome{
+    background: white;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+.hometext{
     background-image: url("../assets/homebgrd.webp");
     background-repeat: no-repeat;
     background-position: bottom;
-}
-.hometext{
     width: 230px;
     padding: 68px 10px 148px;
 }
@@ -14,10 +19,12 @@
     height: 352px;
     margin-block-end: 18px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+    overflow: hidden;
+    position: relative;
 }
-.scrollImg{
+.scrollImgHome{
     display: flex;
-    overflow: scroll;
+    width: 67%;
 }
 .homeandkitchen{
     padding: 25px 15px;
@@ -58,3 +65,38 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
     border-radius: 2px;
 }
+.nextarrowhome {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+    background-color: #ffff;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+    width: 47px;
+    height: 104px;
+    right: 7px;
+  }
+  .nextarrowhome img {
+    transform: rotate(180deg);
+  }
+  .prevarrowhome {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: calc(46% - 52px);
+    background-color: #ffff;
+    z-index: 2;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+    width: 47px;
+    display: none;
+    height: 104px;
+    left: 270px;
+  }
+}
+@media screen and (min-width: 1440px) {
+    .scrollImgHome {
+      width: 83%;
+    }
+  }

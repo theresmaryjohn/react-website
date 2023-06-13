@@ -34,8 +34,8 @@ function Homepage() {
       <div className="desktopContainer">
         <HeaderD />
         <CategoriesD/>
-        <CarouselD/>
         <div className="itemsContainer">
+        <CarouselD/>
         <Electronics/>
         <HealthData/>
         <HomeandKitchen/>

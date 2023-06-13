@@ -13,6 +13,7 @@ function CategoriesD() {
         categoriesData()
     },[])
   return (
+        <div className='category'>
     <div className='categoriesContainer'>
         {data.map((item,index)=>(
             <div key={index} className='categories'>
@@ -20,7 +21,7 @@ function CategoriesD() {
                 <a className='items'>{item.text}<img src={item.svg}/></a>
             </div>
         ))}
-
+    </div>
     </div>
   )
 }

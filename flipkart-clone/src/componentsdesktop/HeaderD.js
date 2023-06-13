@@ -37,6 +37,7 @@ function HeaderD() {
         </div>
         <a className="carticon">
           <img src={carticon}/>
+          Cart
         </a>
       </div>
     </div>

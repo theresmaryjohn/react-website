@@ -13,10 +13,13 @@
   }
   .desktopContainer{
     display: block;
+    background-color: #e0e0e0;
   }
   .itemsContainer{
     background-color: #e0e0e0;
     padding-inline-start: 6px;
+    max-width: 1450px;
+    margin-inline: auto;
   }
 
 }
