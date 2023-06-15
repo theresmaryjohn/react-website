@@ -1,7 +1,7 @@
 @media screen and (min-width: 1024px) {
   .bestofelec {
     background: white;
-    position:sticky;
+    position: sticky;
     left: 0;
     z-index: 2;
   }
@@ -46,7 +46,7 @@
   .airasiaimg img {
     width: 230px;
     height: 353px;
-    position:absolute;
+    position: absolute;
     top: 0;
     right: 0;
     z-index: 3;
@@ -119,4 +119,3 @@
     width: 67%;
   }
 }
-

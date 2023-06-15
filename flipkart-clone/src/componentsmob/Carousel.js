@@ -2,30 +2,21 @@ import React, { useEffect, useRef, useState } from "react";
 import fetchData from "../fetchData";
 import "./Carousel.css";
 
-function Carousel() {
-  const [data, setData] = useState([]);
+function Carousel(props) {
   const [index, setIndex] = useState(0);
 
-  useEffect(() => {
-    async function categoriesData() {
-      const catReponse = await fetchData();
-      setData(catReponse.carousel);
-    }
-    categoriesData();
-  }, []);
-
   const CallIndex = () => {
-    setIndex(index === data.length - 1 ? 0 : index + 1);
+    setIndex(index === props.carousel.length - 1 ? 0 : index + 1);
   };
   useEffect(() => {
-    setTimeout(CallIndex,2500);
+    setTimeout(CallIndex, 2500);
   });
 
   return (
     <div className="slide">
-      {data?.map((item) => (
+      {props.carousel?.map((item) => (
         <div
-        className="imgCarousel"
+          className="imgCarousel"
           key={item}
           style={{
             transform: `translateX(${-100 * index}%)`,

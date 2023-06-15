@@ -29,12 +29,12 @@ function Header() {
         </div>
       </div>
       <div className="searchinput">
-      <div>
+        <div>
           <img src={searchicon} />
         </div>
-        <div  className="searchpro">
-        <input placeholder="Search for Products,Brands and More"/></div>
-
+        <div className="searchpro">
+          <input placeholder="Search for Products,Brands and More" />
+        </div>
       </div>
     </div>
   );

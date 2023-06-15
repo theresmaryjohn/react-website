@@ -1,13 +1,12 @@
-.imgCarousel{
-    min-width: 100%;
-    height: 100%;
+.imgCarousel {
+  min-width: 100%;
+  height: 100%;
 }
-.imgCarousel img{
-    width: 100%;
-    height: 100%;
+.imgCarousel img {
+  width: 100%;
+  height: 100%;
 }
-.slide{
-    display: flex;
-    overflow-x: hidden;
+.slide {
+  display: flex;
+  overflow-x: hidden;
 }
-

@@ -1,5 +1,5 @@
 import React from "react";
-import './HeaderD.css'
+import "./HeaderD.css";
 import fliplite from "../assets/flipkart.png";
 import angledown from "../assets/angledown.png";
 import carticon from "../assets/cart.svg";
@@ -26,8 +26,11 @@ function HeaderD() {
         >
           Login
         </a>
-        <a className="seller" href="https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect">
-          <span >Become a Seller</span>
+        <a
+          className="seller"
+          href="https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect"
+        >
+          <span>Become a Seller</span>
         </a>
         <div className="knowmore">
           <div className="moretext">More</div>
@@ -36,7 +39,7 @@ function HeaderD() {
           </div>
         </div>
         <a className="carticon">
-          <img src={carticon}/>
+          <img src={carticon} />
           Cart
         </a>
       </div>

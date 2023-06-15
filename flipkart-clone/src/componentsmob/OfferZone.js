@@ -3,25 +3,17 @@ import fetchData from "../fetchData";
 import imgbanner from "../assets/graborgone.jpg";
 import "./OfferZone.css";
 
-function OfferZone() {
-  const [data, setData] = useState([]);
+function OfferZone(props) {
 
-  useEffect(() => {
-    async function offerData() {
-      const offerResponse = await fetchData();
-      setData(offerResponse.graborgone);
-    }
-    offerData();
-  }, []);
   return (
     <div className="mainOfferContainer">
-        <div className="grab">
+      <div className="grab">
         <div className="grabtext">Grab or Gone</div>
         <div className="grabview">View all</div>
-        </div>
+      </div>
       <img className="banner" src={imgbanner} />
       <div className="offerContainer">
-        {data.map((item, index) => (
+        {props.offer.map((item, index) => (
           <div key={index} className="offers">
             <img src={item.imgurl} />
             <div className="offertext">

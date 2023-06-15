@@ -4,30 +4,22 @@ import airasiacard from "../assets/airasia.webp";
 import arrow from "../assets/angle-right.svg";
 import "./Electronics.css";
 
-function Electronics() {
-  const [data, setData] = useState([]);
+function Electronics({electronics:props}) {
   const image = useRef(null);
   const arrowRight = useRef(null);
   const arrowLeft = useRef(null);
 
-  useEffect(() => {
-    async function electronicsData() {
-      const electronicsResponse = await fetchData();
-      setData(electronicsResponse.electronicsdata);
-    }
-    electronicsData();
-  }, []);
   const handleClickLeft = () => {
     image.current.style.transform = `translateX(${2}%)`;
     arrowRight.current.style.display = "flex";
     arrowLeft.current.style.display = "none";
-    image.current.style.transition="transform ease-in-out 0.45s"
+    image.current.style.transition = "transform ease-in-out 0.45s";
   };
   const handleClickRight = () => {
-    image.current.style.transform = `translateX(${-145}%)`;
+    image.current.style.transform = `translateX(${-130}%)`;
     arrowLeft.current.style.display = "flex";
     arrowRight.current.style.display = "flex";
-    image.current.style.transition="transform ease-in-out 0.45s"
+    image.current.style.transition = "transform ease-in-out 0.45s";
   };
 
   return (
@@ -39,11 +31,11 @@ function Electronics() {
             <a>VIEW ALL</a>
           </div>
         </div>
-        <div className="prevarrow" ref={arrowLeft} onClick={handleClickLeft} >
+        <div className="prevarrow" ref={arrowLeft} onClick={handleClickLeft}>
           <img src={arrow} />
         </div>
         <div className="scrollImg" ref={image}>
-          {data.map((item, index) => (
+          {props.map((item, index) => (
             <div className="electronics" key={index}>
               <img src={item.imgurl} />
               <div className="type">{item.text}</div>
@@ -53,7 +45,7 @@ function Electronics() {
           ))}
         </div>
         <div className="nextarrow" ref={arrowRight} onClick={handleClickRight}>
-          <img src={arrow}  />
+          <img src={arrow} />
         </div>
         <div className="airasiaimg">
           <img src={airasiacard} />

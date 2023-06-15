@@ -7,7 +7,7 @@
   width: 52%;
   height: 57%;
 }
-.offers{
+.offers {
   width: 50%;
 }
 .offerContainer {
@@ -31,38 +31,38 @@
   position: relative;
   background: linear-gradient(rgb(252, 167, 216), rgb(252, 167, 216));
 }
-.grab{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    top: 21px;
-    gap: 133px;
+.grab {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  top: 21px;
+  gap: 133px;
 }
-.grabview{
-    background: #ffff;
-    padding: 8px 12px;
-    color: #515e71;
-    font-size: 14px;
-    border-radius: 4px;
-    font-family: 'Roboto';
+.grabview {
+  background: #ffff;
+  padding: 8px 12px;
+  color: #515e71;
+  font-size: 14px;
+  border-radius: 4px;
+  font-family: "Roboto";
 }
-.grabtext{
-    color: #ffff;
+.grabtext {
+  color: #ffff;
 }
-@media screen and (min-width:768px){
-.grab{
-  gap: 333px;
-  top: 60px;
-}
-.grabview{
-  font-size: 18px;
-  color: white;
-  background-color: darkblue;
-}
-.grabtext{
-  font-size: 21px;
-  color: black;
-}
+@media screen and (min-width: 768px) {
+  .grab {
+    gap: 333px;
+    top: 60px;
+  }
+  .grabview {
+    font-size: 18px;
+    color: white;
+    background-color: darkblue;
+  }
+  .grabtext {
+    font-size: 21px;
+    color: black;
+  }
 }

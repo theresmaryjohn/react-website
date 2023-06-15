@@ -1,18 +1,17 @@
-.saledata img{
-    width: 64px;
+.saledata img {
+  width: 64px;
 }
-.saledata{
-    width: 64%;
-    height: 85%;
+.saledata {
+  width: 64%;
+  height: 85%;
 }
 
-@media screen and (min-width:768px) {
-    .saledata img{
-        width: 100px;
-    }
-    .saleContainer{
-        display: flex;
-        justify-content: space-around;
-    }
-
+@media screen and (min-width: 768px) {
+  .saledata img {
+    width: 100px;
+  }
+  .saleContainer {
+    display: flex;
+    justify-content: space-around;
+  }
 }

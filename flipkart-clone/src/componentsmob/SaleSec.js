@@ -1,27 +1,16 @@
-import React, { useEffect, useState } from 'react'
-import fetchData from '../fetchData'
-import './SaleSec.css'
+import React from "react";
+import "./SaleSec.css";
 
-function SaleSec() {
-    const [data,setData]=useState([])
-
-  useEffect(()=>{
-    async function saleData(){
-        const saleResponse=await fetchData();
-        setData(saleResponse.sale)
-    }
-    saleData();
-  },[])
+function SaleSec(props) {
   return (
-    <div className='saleContainer' style={{display:'flex'}}>
-        {data.map((item,index)=>(
-            <div key={index} className='saledata' >
-                <img src={item}/>
-            </div>
-        ))}
-
+    <div className="saleContainer" style={{ display: "flex" }}>
+      {props.sale.map((item, index) => (
+        <div key={index} className="saledata">
+          <img src={item} />
+        </div>
+      ))}
     </div>
-  )
+  );
 }
 
-export default SaleSec
+export default SaleSec;
