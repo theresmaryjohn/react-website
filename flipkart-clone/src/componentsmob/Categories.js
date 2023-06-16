@@ -5,8 +5,8 @@ function Categories(props) {
 
   return (
     <div className="imgIconsCat">
-      {props.categories.map((item, index) => (
-        <div className="imgDivCat" key={index}>
+      {props.categories.map((item) => (
+        <div className="imgDivCat">
           <img src={item} />
         </div>
       ))}

@@ -2,29 +2,29 @@ import React, { useEffect, useState } from "react";
 import angleright from "../assets/angle-right.svg";
 import "./CarouselD.css";
 
-function CarouselD({desktopCarousel:props}) {
+function CarouselD({desktopCarousel}) {
   const [ind, setInd] = useState(0);
 
   const getIndex = () => {
-    setInd((ind) => (ind === props.length - 1 ? 0 : ind + 1));
+    setInd((ind) => (ind === desktopCarousel.length - 1 ? 0 : ind + 1));
   };
 
   useEffect(() => {
     const interval = setInterval(getIndex, 2000);
     return () => clearInterval(interval);
-  }, [props.length]);
+  }, [desktopCarousel.length]);
 
   const handleClickNext = () => {
-    setInd((ind) => (ind === props.length - 1 ? 0 : ind + 1));
+    setInd((ind) => (ind === desktopCarousel.length - 1 ? 0 : ind + 1));
   };
 
   const handleClickPrev = () => {
-    setInd((ind) => (ind === 0 ? props.length - 1 : ind - 1));
+    setInd((ind) => (ind === 0 ? desktopCarousel.length - 1 : ind - 1));
   };
 
   return (
     <div className="slidecontainer">
-      {props.map((item, index) => (
+      {desktopCarousel.map((item, index) => (
         <div
           className="slidecarousel"
           style={{
