@@ -1,4 +1,6 @@
 {
+
+
   "mobilehead": [
     "https://rukminim2.flixcart.com/flap/59/55/image/033f3268031fa0ba.jpg?q=80",
     "https://rukminim2.flixcart.com/flap/117/111/image/0f3d008be60995d4.jpg?q=60",
@@ -31,6 +33,11 @@
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/b870e9af783b7036.jpeg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/09eba666df579115.jpeg?q=60"
   ],
+
+  "offerpro": [
+    "https://rukminim2.flixcart.com/fk-p-image/320/320/cf-ce-calvin-prod6/7f9b68385618a7ba4212d88c466d6c4f.JPEG?q=60",
+    "https://rukminim2.flixcart.com/fk-p-image/160/160/cf-ce-calvin-prod3/b456ea54325bbdb02d30784b8ed6cabe.JPEG?q=80"
+  ],
   "sale": [
     "https://rukminim2.flixcart.com/fk-p-flap/64/94/image/83a88203172bd2ee.jpg?q=80",
     "https://rukminim2.flixcart.com/fk-p-flap/64/94/image/c0fa3b4ebdb22750.jpg?q=80",
@@ -39,10 +46,6 @@
     "https://rukminim2.flixcart.com/fk-p-flap/128/187/image/2704b0e3ed91bcfe.jpg?q=60"
   ],
 
-  "offerpro": [
-    "https://rukminim2.flixcart.com/fk-p-image/320/320/cf-ce-calvin-prod6/7f9b68385618a7ba4212d88c466d6c4f.JPEG?q=60",
-    "https://rukminim2.flixcart.com/fk-p-image/160/160/cf-ce-calvin-prod3/b456ea54325bbdb02d30784b8ed6cabe.JPEG?q=80"
-  ],
   "endofseasonsale": [
     "https://rukminim2.flixcart.com/fk-p-flap/213/284/image/bda6575a59a9fbfc.jpeg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/284/image/64e8a0a2d53d6fed.jpeg?q=60",
@@ -85,6 +88,7 @@
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/42ece971e9d0cc7c.jpg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/500f7497719eed50.jpg?q=60"
   ],
+
   "desktophead": [
     {
       "imgurl": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/aecfaba5969b96dd.png?q=100",

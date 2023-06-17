@@ -13,13 +13,13 @@ function SplPrice({price:propsA,data:propsB}) {
           </div>
         ))}
       </div>
-      <div style={{ display: "flex" }}>
+      {/* <div style={{ display: "flex" }}>
         {propsB.map((item, index) => (
           <div key={index} className="splPricedatatwo">
             <img src={item} />
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

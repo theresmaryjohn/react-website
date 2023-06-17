@@ -19,57 +19,12 @@ import Fashion from "./componentsdesktop/Fashion";
 import fetchData from "./fetchData";
 
 function Homepage() {
-  const [categories, setCategories] = useState([]);
-  const [carousel, setCarousel] = useState([]);
   const [components, setComponents] = useState([]);
-
-  // const [sale,setSale]=useState([]);
-  // const [price,setPrice]=useState([]);
-  // const [data,setData]=useState([]);
-  // const [seasonSale,setSeasonSale]=useState([]);
-  // const [offer,setOffer]=useState([]);
-  // const [selling,setSelling]=useState([]);
-  // const [lastDay,setLastDay]=useState([]);
-  // const [desktopHeader,setdesktopHeader]=useState([]);
-  // const [desktopCarousel,setDesktopCarousel]=useState([]);
-  // const [electronics,setElectronics]=useState([])
-  // const [healthData,setHealthData]=useState([]);
-  // const [home,setHome]=useState([]);
-  // const [fashion,setFashion]=useState([])
 
   useEffect(() => {
     async function Data() {
       const dataResponse = await fetchData();
       setComponents(dataResponse);
-      // Object.keys(dataResponse).forEach(function(key){
-      // console.log(dataResponse[key])
-      // console.log( `${key}`);
-      //  setCategories(dataResponse[key='mobilehead'])
-      //  setCarousel(dataResponse[key='carousel']);
-
-      // })
-
-      //  const dataKeys=dataResponse.map(item=>Object.keys(item));
-      //  console.log(dataKeys);
-      // console.log(dataKeys);
-      //   dataKeys.map((item)=>{
-      //  setCategories(dataResponse.item)
-      // })
-      // setCategories(dataResponse.mobilehead)
-      //   setCarousel(dataResponse.carousel);
-      //   setSale(dataResponse.sale);
-      //   setPrice(dataResponse.offerpro);
-      //   setData(dataResponse.splpricezone);
-      //   setSeasonSale(dataResponse.endofseasonsale);
-      //   setOffer(dataResponse.graborgone);
-      //   setSelling(dataResponse.bestselling);
-      //   setLastDay(dataResponse.lastdaysale);
-      //   setdesktopHeader(dataResponse.desktophead);
-      //   setDesktopCarousel(dataResponse.carouseldesktop);
-      //   setElectronics(dataResponse.electronicsdata);
-      //   setHealthData(dataResponse.healthdata);
-      //   setHome(dataResponse.homeandkitchen);
-      //   setFashion(dataResponse.fashiondeals);
     }
     Data();
   }, []);
@@ -84,39 +39,63 @@ function Homepage() {
   });
   // console.log(arr);
 
+  function getDataMobile(item) {
+    if (item.key === "mobilehead") {
+      return <Categories categories={item.value} />;
+    } else if (item.key === "carousel") {
+      return <Carousel carousel={item.value} />;
+    } else if (item.key === "splpricezone" || item.key === "offerpro") {
+      return <SplPrice data={item.value} price={item.value} />;
+    } else if (item.key === "sale") {
+      return <SaleSec sale={item.value} />;
+    } else if (item.key === "endofseasonsale") {
+      return <SeasonSale seasonSale={item.value} />;
+    } else if (item.key === "graborgone") {
+      return <OfferZone offer={item.value} />;
+    } else if (item.key === "bestselling") {
+      return <BestSelling selling={item.value} />;
+    } else if (item.key === "lastdaysale") {
+      return <LastDay lastDay={item.value} />;
+    } else {
+      return null;
+    }
+  }
+
+  function getDataDesktop(item) {
+    if (item.key === "desktophead") {
+      return <CategoriesD catergory={item.value} />;
+    } else if (item.key === "carouseldesktop") {
+      return <CarouselD desktopCarousel={item.value} />;
+    } else {
+      return null;
+    }
+  }
+
+  function sectionsDesktop(item) {
+    if (item.key === "electronicsdata") {
+      return <Electronics electronics={item.value} />;
+    } else if (item.key === "healthdata") {
+      return <HealthData healthData={item.value} />;
+    } else if (item.key === "homeandkitchen") {
+      return <HomeandKitchen home={item.value} />;
+    } else if (item.key === "fashiondeals") {
+      return <Fashion fashion={item.value} />;
+    } else {
+      return null;
+    }
+  }
 
   return (
     <div>
       <div className="mobContainer">
-         <Header />
-         {arr.map((item)=>(
-          item.key=='mobilehead'?<Categories categories={item.value} />:null
-         ))}
-          {arr.map((item)=>(
-          item.key=='carousel'?<Carousel carousel={item.value} />:null
-         ))}
-         {arr.map((item)=>(
-          item.key=='splpricezone'?  <SplPrice data={item.value} price={item.value} />:null
-         ))}
-        {/* <Categories categories={categories} /> */}
-        {/* <Carousel carousel={carousel} /> */}
-        {/* <Carousel carousel={carousel}/>
-        <SaleSec sale={sale}/>
-        <SplPrice data={data} price={price} />
-        <SeasonSale seasonSale={seasonSale}/>
-        <OfferZone offer={offer} />
-        <BestSelling selling={selling} />
-        <LastDay lastDay={lastDay}/> */}
+        <Header />
+        {arr.map((item) => getDataMobile(item))}
       </div>
       <div className="desktopContainer">
         <HeaderD />
-        {/* <CategoriesD desktopHeader={desktopHeader}/> */}
+        {arr.map((item) => getDataDesktop(item))}
         <div className="itemsContainer">
-          {/* <CarouselD desktopCarousel={desktopCarousel}/>
-        <Electronics electronics={electronics}/>
-        <HealthData healthData={healthData}/>
-        <HomeandKitchen home={home}/>
-        <Fashion fashion={fashion}/> */}
+          {arr.map((item) => sectionsDesktop(item))}
         </div>
       </div>
     </div>
