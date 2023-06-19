@@ -39,6 +39,8 @@ function Homepage() {
   });
   // console.log(arr);
 
+  //as we have to place the components in the order of json we use these functions
+
   function getDataMobile(item) {
     if (item.key === "mobilehead") {
       return <Categories categories={item.value} />;
@@ -64,15 +66,15 @@ function Homepage() {
   function getDataDesktop(item) {
     if (item.key === "desktophead") {
       return <CategoriesD catergory={item.value} />;
-    } else if (item.key === "carouseldesktop") {
-      return <CarouselD desktopCarousel={item.value} />;
     } else {
       return null;
     }
   }
 
   function sectionsDesktop(item) {
-    if (item.key === "electronicsdata") {
+    if (item.key === "carouseldesktop") {
+      return <CarouselD desktopCarousel={item.value} />;
+    } else if (item.key === "electronicsdata") {
       return <Electronics electronics={item.value} />;
     } else if (item.key === "healthdata") {
       return <HealthData healthData={item.value} />;
