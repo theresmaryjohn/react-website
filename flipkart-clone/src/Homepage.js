@@ -96,7 +96,9 @@ function Homepage() {
   // console.log(myArray[0])
   //console.log(arr.map((item) => getDataDesktop(item)))
 //  let x = "<Header /><Categories categories={[arr[0]]}/>"
-//  console.log("key",arr);
+ console.log("key",arr);
+
+
   return (
     <div>
       <div className="mobContainer">
