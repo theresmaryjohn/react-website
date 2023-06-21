@@ -1,0 +1,19 @@
+.splPricedataone img {
+  width: 100%;
+}
+.splPricedataone,
+.splPricedatatwo {
+  width: 100%;
+  height: 100%;
+}
+.splPricedatatwo img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .splPricedataone img {
+    width: 256px;
+  }
+  .splPricedatatwo img {
+    width: 384px;
+  }
+}

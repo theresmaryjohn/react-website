@@ -1,0 +1,77 @@
+.headerflip {
+  background-color: #2874f0;
+  padding-bottom: 9px;
+  padding-inline: 5px;
+}
+.headerflipfirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-block-start: 9px;
+}
+.imgflip img {
+  height: 30px;
+  width: 85px;
+}
+.imgflip {
+  height: 45px;
+  width: 85px;
+}
+.imghamburger {
+  width: 42px;
+}
+.imghamburger img {
+  padding-block-end: 9px;
+}
+.mobheader {
+  display: flex;
+  align-items: center;
+}
+.cartlogin {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+}
+.loginsec {
+  color: white;
+  font-family: "Roboto";
+  height: 52px;
+  width: 90px;
+}
+.plusiconimg {
+  height: 52px;
+  width: 42px;
+}
+.carticonimg {
+  height: 52px;
+  width: 42px;
+}
+.searchinput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  background-color: white;
+  padding-inline: 4px;
+}
+.searchinput img {
+  height: 14px;
+  width: 14px;
+  padding-block-start: 4px;
+  padding-inline-start: 9px;
+}
+.searchpro {
+  display: contents;
+}
+.searchinput input {
+  border: none;
+  width: 92%;
+  border-radius: 2px;
+}
+::-webkit-input-placeholder {
+  padding-inline-start: 10px;
+  font-size: 14px;
+  font-family: "Roboto";
+}
