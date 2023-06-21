@@ -29,6 +29,7 @@ function Homepage() {
     Data();
   }, []);
 
+  console.log("components",components);
   let arr = [];
   Object.keys(components).map((key) => {
     let obj = {
@@ -87,15 +88,27 @@ function Homepage() {
     }
   }
 
+  // let myArray = [];
+  // function myHeader() {
+  //   return <Header />
+  // }
+  // myArray.push(myHeader())
+  // console.log(myArray[0])
+  //console.log(arr.map((item) => getDataDesktop(item)))
+//  let x = "<Header /><Categories categories={[arr[0]]}/>"
+//  console.log("key",arr);
   return (
     <div>
       <div className="mobContainer">
-        <Header />
-        {arr.map((item) => getDataMobile(item))}
+        <Header/>
+    {arr.map((item)=>getDataMobile(item))}
+      {/* {myArray} */}
+      {/* <Categories categories={arr[0].value}/> */}
       </div>
       <div className="desktopContainer">
         <HeaderD />
         {arr.map((item) => getDataDesktop(item))}
+
         <div className="itemsContainer">
           {arr.map((item) => sectionsDesktop(item))}
         </div>
