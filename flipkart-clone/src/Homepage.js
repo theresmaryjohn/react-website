@@ -104,6 +104,7 @@ function Homepage() {
       <div className="mobContainer">
         <Header/>
     {arr.map((item)=>getDataMobile(item))}
+    {/* the arr.map generates a array of react elements (objects) which are same as the components we statically put in the jsx */}
       {/* {myArray} */}
       {/* <Categories categories={arr[0].value}/> */}
       </div>
