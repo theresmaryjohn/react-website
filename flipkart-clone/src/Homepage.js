@@ -38,7 +38,7 @@ function Homepage() {
     };
     arr.push(obj);
   });
-  // console.log(arr);
+  console.log(arr);
 
   //as we have to place the components in the order of json we use these functions
 
