@@ -1,0 +1,17 @@
+.img-icons-categories {
+  display: flex;
+  overflow: scroll;
+}
+.img-division-categories img {
+  width: 58px;
+  height: 55px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .img-division-categories img {
+    width: 140px;
+    height: 133px;
+  }
+}
