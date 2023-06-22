@@ -30,32 +30,32 @@ function Homepage() {
   }, []);
 
   console.log("components", components);
-  let arr = [];
+  let array = [];
   Object.keys(components).map((key) => {
     let obj = {
       key: key,
       value: components[key],
     };
-    arr.push(obj);
+    array.push(obj);
   });
-  console.log(arr);
+  console.log(array);
 
   function getDataMobile(item) {
-    if (item.key === "mobilehead") {
+    if (item.key === "mobileHead") {
       return <Categories categories={item.value} />;
     } else if (item.key === "carousel") {
       return <Carousel carousel={item.value} />;
-    } else if (item.key === "splpricezone" || item.key === "offerpro") {
+    } else if (item.key === "splPriceZone" || item.key === "offerPro") {
       return <SplPrice data={item.value} price={item.value} />;
     } else if (item.key === "sale") {
       return <SaleSec sale={item.value} />;
-    } else if (item.key === "endofseasonsale") {
+    } else if (item.key === "endOfSeasonSale") {
       return <SeasonSale seasonSale={item.value} />;
-    } else if (item.key === "graborgone") {
+    } else if (item.key === "grabOrGone") {
       return <OfferZone offer={item.value} />;
-    } else if (item.key === "bestselling") {
+    } else if (item.key === "bestSelling") {
       return <BestSelling selling={item.value} />;
-    } else if (item.key === "lastdaysale") {
+    } else if (item.key === "lastDaySale") {
       return <LastDay lastDay={item.value} />;
     } else {
       return null;
@@ -63,42 +63,42 @@ function Homepage() {
   }
 
   function getDataDesktop(item) {
-    if (item.key === "desktophead") {
-      return <CategoriesD catergory={item.value} />;
+    if (item.key === "desktopHead") {
+      return <CategoriesD category={item.value} />;
     } else {
       return null;
     }
   }
 
   function sectionsDesktop(item) {
-    if (item.key === "carouseldesktop") {
+    if (item.key === "carouselDesktop") {
       return <CarouselD desktopCarousel={item.value} />;
-    } else if (item.key === "electronicsdata") {
+    } else if (item.key === "electronicsData") {
       return <Electronics electronics={item.value} />;
-    } else if (item.key === "healthdata") {
+    } else if (item.key === "healthData") {
       return <HealthData healthData={item.value} />;
-    } else if (item.key === "homeandkitchen") {
+    } else if (item.key === "homeAndKitchen") {
       return <HomeandKitchen home={item.value} />;
-    } else if (item.key === "fashiondeals") {
+    } else if (item.key === "fashionDeals") {
       return <Fashion fashion={item.value} />;
     } else {
       return null;
     }
   }
-  console.log("key", arr);
+  console.log("key", array);
 
   return (
     <div>
-      <div className="mobContainer">
+      <div className="mobile-container">
         <Header />
-        {arr.map((item) => getDataMobile(item))}
+        {array.map((item) => getDataMobile(item))}
       </div>
-      <div className="desktopContainer">
+      <div className="desktop-container">
         <HeaderD />
-        {arr.map((item) => getDataDesktop(item))}
+        {array.map((item) => getDataDesktop(item))}
 
-        <div className="itemsContainer">
-          {arr.map((item) => sectionsDesktop(item))}
+        <div className="items-container">
+          {array.map((item) => sectionsDesktop(item))}
         </div>
       </div>
     </div>

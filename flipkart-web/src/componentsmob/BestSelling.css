@@ -1,14 +1,14 @@
-.sellingContainer img {
+.selling-container img {
   width: 100%;
 }
-.sellingContainer {
+.selling-container {
   width: 50%;
 }
 @media screen and (min-width: 768px) {
-  .sellingContainer img {
+  .selling-container img {
     width: 384px;
   }
-  .bestSelling {
+  .best-selling {
     display: flex;
     justify-content: space-around;
   }

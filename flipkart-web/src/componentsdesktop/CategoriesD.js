@@ -1,26 +1,16 @@
-import React, { useState, useEffect } from "react";
-import fetchData from "../fetchData";
+import React from "react";
 import "./CategoriesD.css";
 
-function CategoriesD() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    async function categoriesData() {
-      const categoriesResponse = await fetchData();
-      setData(categoriesResponse.desktophead);
-    }
-    categoriesData();
-  }, []);
+function CategoriesD({category}) {
   return (
     <div className="category">
-      <div className="categoriesContainer">
-        {data.map((item, index) => (
+      <div className="categories-container">
+        {category.map((item, index) => (
           <div key={index} className="categories">
-            <img src={item.imgurl} />
+            <img src={item.imgurl} alt="Image" />
             <a className="items">
               {item.text}
-              <img src={item.svg} />
+              <img src={item.svg} alt="Image" />
             </a>
           </div>
         ))}

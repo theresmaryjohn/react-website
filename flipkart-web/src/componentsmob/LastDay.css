@@ -1,10 +1,10 @@
-.lastDaySaleData {
+.last-day-sale-data {
   display: flex;
   flex-wrap: wrap;
 }
-.lastDaySale img {
+.last-day-sale img {
   width: 100%;
 }
-.lastDaySale {
+.last-day-sale {
   width: 50%;
 }

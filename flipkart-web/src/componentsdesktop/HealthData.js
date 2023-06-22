@@ -20,36 +20,36 @@ function HealthData({healthData:props}) {
     image.current.style.transition = "transform ease-in-out 0.45s";
   };
   return (
-    <div className="healthContainer">
-      <div className="bestofhealth">
-        <div className="healthtext">
+    <div className="health-container">
+      <div className="best-of-health">
+        <div className="health-text">
           <h2>Sports, Healthcare & more</h2>
           <a>VIEW ALL</a>
         </div>
       </div>
       <div
-        className="prevarrowhealth"
+        className="prev-arrow-health"
         ref={arrowLeft}
         onClick={handleClickLeft}
       >
-        <img src={arrow} />
+        <img src={arrow} alt="Arrow"/>
       </div>
-      <div className="scrollImgHealth" ref={image}>
+      <div className="scroll-img-health" ref={image}>
         {props.map((item, index) => (
-          <div className="healthcare" key={index}>
+          <div className="health-care" key={index}>
             <img src={item.imgurl} />
             <div className="type">{item.text}</div>
-            <div className="shopnow">{item.price}</div>
+            <div className="shop-now">{item.price}</div>
             <div className="brand">{item.para}</div>
           </div>
         ))}
       </div>
       <div
-        className="nextarrowhealth"
+        className="next-arrow-health"
         ref={arrowRight}
         onClick={handleClickRight}
       >
-        <img src={arrow} />
+        <img src={arrow} alt="Arrow" />
       </div>
     </div>
   );

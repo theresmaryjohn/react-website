@@ -1,23 +1,23 @@
 import React from "react";
 import "./HeaderD.css";
-import fliplite from "../assets/flipkart.png";
-import angledown from "../assets/angledown.png";
-import carticon from "../assets/cart.svg";
-import searchicon from "../assets/searchicon-blue.svg";
+import flipLite from "../assets/flipkart.png";
+import angleDown from "../assets/angledown.png";
+import cartIcon from "../assets/cart.svg";
+import searchIcon from "../assets/searchicon-blue.svg";
 
 function HeaderD() {
   return (
-    <div className="headerdeskContainer">
-      <div className="deskheader">
-        <a className="deskimgflip">
-          <img src={fliplite} />
+    <div className="header-desktop-container">
+      <div className="desktop-header">
+        <a className="desktop-img-flipkart">
+          <img src={flipLite} alt="FlipkartLiteIcon"/>
         </a>
-        <div className="searchproductsdesk">
-          <div className="searchproducts">
+        <div className="search-products-desktop">
+          <div className="search-products">
             <input placeholder="Search for Products,Brands and More" />
           </div>
-          <div className="searchiconimg">
-            <img src={searchicon} />
+          <div className="search-icon-img">
+            <img src={searchIcon} alt="SearchIcon"/>
           </div>
         </div>
         <a
@@ -32,14 +32,14 @@ function HeaderD() {
         >
           <span>Become a Seller</span>
         </a>
-        <div className="knowmore">
-          <div className="moretext">More</div>
-          <div className="moreimg">
-            <img src={angledown} />
+        <div className="know-more">
+          <div className="know-more-text">More</div>
+          <div className="know-more-img">
+            <img src={angleDown} alt="AngleDown"/>
           </div>
         </div>
-        <a className="carticon">
-          <img src={carticon} />
+        <a className="cart-icon">
+          <img src={cartIcon} alt="CartIcon"/>
           Cart
         </a>
       </div>

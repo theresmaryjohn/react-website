@@ -1,24 +1,23 @@
-import React, { useState, useEffect } from "react";
-import fetchData from "../fetchData";
+import React from "react";
 import imgbanner from "../assets/graborgone.jpg";
 import "./OfferZone.css";
 
 function OfferZone(props) {
 
   return (
-    <div className="mainOfferContainer">
-      <div className="grab">
-        <div className="grabtext">Grab or Gone</div>
-        <div className="grabview">View all</div>
+    <div className="main-offer-container">
+      <div className="grab-items">
+        <div className="grab-items-text">Grab or Gone</div>
+        <div className="grab-items-view">View all</div>
       </div>
-      <img className="banner" src={imgbanner} />
-      <div className="offerContainer">
+      <img className="banner" src={imgbanner} alt="ImageBanner" />
+      <div className="offer-container">
         {props.offer.map((item, index) => (
           <div key={index} className="offers">
-            <img src={item.imgurl} />
-            <div className="offertext">
-              <div className="textp">{item.text}</div>
-              <div className="textprice">{item.price}</div>
+            <img src={item.imgurl} alt="Image" />
+            <div className="offer-text">
+              <div className="paragraph">{item.text}</div>
+              <div className="text-price">{item.price}</div>
             </div>
           </div>
         ))}

@@ -2,36 +2,34 @@
   width: 100%;
 }
 .offers img {
-  /* width: 83px;
-  height: 103px; */
   width: 52%;
   height: 57%;
 }
 .offers {
   width: 50%;
 }
-.offerContainer {
+.offer-container {
   display: flex;
   flex-wrap: wrap;
   padding-block: 28px;
   background: white;
   width: 90%;
 }
-.textp {
+.paragraph {
   font-size: 12px;
 }
-.textprice {
+.text-price {
   font-size: 14px;
   color: #388e3c;
 }
-.mainOfferContainer {
+.main-offer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   background: linear-gradient(rgb(252, 167, 216), rgb(252, 167, 216));
 }
-.grab {
+.grab-items {
   position: absolute;
   display: flex;
   align-items: center;
@@ -40,7 +38,7 @@
   top: 21px;
   gap: 133px;
 }
-.grabview {
+.grab-items-view {
   background: #ffff;
   padding: 8px 12px;
   color: #515e71;
@@ -48,20 +46,20 @@
   border-radius: 4px;
   font-family: "Roboto";
 }
-.grabtext {
+.grab-items-text {
   color: #ffff;
 }
 @media screen and (min-width: 768px) {
-  .grab {
+  .grab-items {
     gap: 333px;
     top: 60px;
   }
-  .grabview {
+  .grab-items-view {
     font-size: 18px;
     color: white;
     background-color: darkblue;
   }
-  .grabtext {
+  .grab-items-wtext {
     font-size: 21px;
     color: black;
   }

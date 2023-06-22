@@ -1,7 +1,5 @@
 {
-
-
-  "mobilehead": [
+  "mobileHead": [
     "https://rukminim2.flixcart.com/flap/59/55/image/033f3268031fa0ba.jpg?q=80",
     "https://rukminim2.flixcart.com/flap/117/111/image/0f3d008be60995d4.jpg?q=60",
     "https://rukminim2.flixcart.com/flap/117/111/image/42f9a853f9181279.jpg?q=60",
@@ -28,13 +26,13 @@
     "https://rukminim2.flixcart.com/fk-p-flap/650/300/image/3f9d552abc878996.jpeg?q=20"
   ],
 
-  "splpricezone": [
+  "splPriceZone": [
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/319754c83838e7e9.jpg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/b870e9af783b7036.jpeg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/09eba666df579115.jpeg?q=60"
   ],
 
-  "offerpro": [
+  "offerPro": [
     "https://rukminim2.flixcart.com/fk-p-image/320/320/cf-ce-calvin-prod6/7f9b68385618a7ba4212d88c466d6c4f.JPEG?q=60",
     "https://rukminim2.flixcart.com/fk-p-image/160/160/cf-ce-calvin-prod3/b456ea54325bbdb02d30784b8ed6cabe.JPEG?q=80"
   ],
@@ -46,7 +44,7 @@
     "https://rukminim2.flixcart.com/fk-p-flap/128/187/image/2704b0e3ed91bcfe.jpg?q=60"
   ],
 
-  "endofseasonsale": [
+  "endOfSeasonSale": [
     "https://rukminim2.flixcart.com/fk-p-flap/213/284/image/bda6575a59a9fbfc.jpeg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/284/image/64e8a0a2d53d6fed.jpeg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/284/image/60e93b3547238d1c.jpeg?q=60",
@@ -54,7 +52,7 @@
     "https://rukminim2.flixcart.com/fk-p-flap/213/284/image/ec3214fc0f6a2a05.jpeg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/284/image/bcfd17c50aee6bb3.jpeg?q=60"
   ],
-  "graborgone": [
+  "grabOrGone": [
     {
       "imgurl": "https://rukminim2.flixcart.com/image/240/240/xif0q/bat/c/m/i/900-new-full-balance-size-double-blade-scoop-bat-long-handle-na-original-imagkk3xxybquhuj.jpeg?q=60",
       "text": "Bestsellers",
@@ -76,11 +74,11 @@
       "price": "Min. 70% Off"
     }
   ],
-  "bestselling": [
+  "bestSelling": [
     "https://rukminim2.flixcart.com/fk-p-image/320/320/cf-ce-calvin-prod10/48bcfdaeb43342558b44157da0461a35.JPEG?q=60",
     "https://rukminim2.flixcart.com/fk-p-image/160/160/cf-ce-calvin-prod3/62d71b3bf82cd9b9e841f375500234b7.JPEG?q=80"
   ],
-  "lastdaysale": [
+  "lastDaySale": [
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/71a92c84c5100ee2.jpg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/ea36d28e68c008ad.jpg?q=60",
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/4894fd92901a3cd0.jpg?q=60",
@@ -89,7 +87,7 @@
     "https://rukminim2.flixcart.com/fk-p-flap/213/228/image/500f7497719eed50.jpg?q=60"
   ],
 
-  "desktophead": [
+  "desktopHead": [
     {
       "imgurl": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/aecfaba5969b96dd.png?q=100",
       "text": "Grocery"
@@ -131,12 +129,12 @@
       "text": "Furniture"
     }
   ],
-  "carouseldesktop": [
+  "carouselDesktop": [
     "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/9ad18b58b1899bfa.jpg?q=50",
     "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/a1d93b6bc446790d.jpg?q=50",
     "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/bada3904b2749464.jpg?q=50"
   ],
-  "electronicsdata": [
+  "electronicsData": [
     {
       "imgurl": "https://rukminim1.flixcart.com/flap/200/200/image/20c224cd52ae7a87.jpg?q=70",
       "text": "Best of Trimmers",
@@ -186,7 +184,7 @@
       "para": "Top Rated"
     }
   ],
-  "healthdata": [
+  "healthData": [
     {
       "imgurl": "https://rukminim1.flixcart.com/image/200/200/l51d30w0/shopsy-sport-mat/p/w/s/anadi-01-yoga-mat-4-30-anadi-enterprise-15-original-imagfsxudxcm7r48.jpeg?q=70",
       "text": "Yoga Mat",
@@ -236,7 +234,7 @@
       "para": "Top Rated"
     }
   ],
-  "homeandkitchen": [
+  "homeAndKitchen": [
     {
       "imgurl": "https://rukminim1.flixcart.com/image/200/200/kz065jk0/emergency-light/v/t/4/high-quality-60-high-bright-led-light-with-android-charging-original-imagb3v8h8zdm3q3.jpeg?q=70",
       "text": "Emergency Lights",
@@ -286,7 +284,7 @@
       "para": "Best Selling Range"
     }
   ],
-  "fashiondeals": [
+  "fashionDeals": [
     {
       "imgurl": "https://rukminim1.flixcart.com/fk-p-flap/200/200/image/5aa98b7cee183286.jpg?q=70",
       "text": "Best selling Styles ",

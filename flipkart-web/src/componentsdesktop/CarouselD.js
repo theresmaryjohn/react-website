@@ -23,10 +23,10 @@ function CarouselD({desktopCarousel}) {
   };
 
   return (
-    <div className="slidecontainer">
+    <div className="slide-container">
       {desktopCarousel.map((item, index) => (
         <div
-          className="slidecarousel"
+          className="slide-carousel"
           style={{
             transform: `translateX(${-100 * ind}%)`,
             transition: "transform ease-in-out 0.45s",
@@ -37,11 +37,11 @@ function CarouselD({desktopCarousel}) {
         </div>
       ))}
 
-      <div className="nextimg" onClick={handleClickNext}>
+      <div className="next-img" onClick={handleClickNext}>
         <img src={angleright} alt="Next" />
       </div>
 
-      <div className="previmg" onClick={handleClickPrev}>
+      <div className="prev-img" onClick={handleClickPrev}>
         <img src={angleright} alt="Previous" />
       </div>
     </div>

@@ -2,24 +2,17 @@ import React from "react";
 import "./SplPrice.css";
 
 
-function SplPrice({price:propsA,data:propsB}) {
+function SplPrice({price:propsA}) {
 
   return (
-    <div className="splPriceContainer">
+    <div className="special-price-container">
       <div style={{ display: "flex" }}>
         {propsA.map((item, index) => (
-          <div key={index} className="splPricedataone">
-            <img src={item} />
+          <div key={index} className="special-price-data">
+            <img src={item} alt="Image"/>
           </div>
         ))}
       </div>
-      {/* <div style={{ display: "flex" }}>
-        {propsB.map((item, index) => (
-          <div key={index} className="splPricedatatwo">
-            <img src={item} />
-          </div>
-        ))}
-      </div> */}
     </div>
   );
 }

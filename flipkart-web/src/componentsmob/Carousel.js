@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
-import fetchData from "../fetchData";
+import React, { useEffect,useState } from "react";
 import "./Carousel.css";
 
 function Carousel(props) {
@@ -16,14 +15,14 @@ function Carousel(props) {
     <div className="slide">
       {props.carousel?.map((item) => (
         <div
-          className="imgCarousel"
+          className="img-carousel"
           key={item}
           style={{
             transform: `translateX(${-100 * index}%)`,
             transition: "transform ease-out 0.45s",
           }}
         >
-          <img src={item} />
+          <img src={item} alt="Image"/>
         </div>
       ))}
     </div>

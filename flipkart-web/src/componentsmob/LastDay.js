@@ -4,12 +4,12 @@ import "./LastDay.css";
 
 function LastDay({lastDay:props}) {
   return (
-    <div className="lastDaySaleContainer">
-      <img src={salebanner} style={{ width: "100%" }} />
-      <div className="lastDaySaleData">
+    <div className="last-day-sale-container">
+      <img src={salebanner} style={{ width: "100%" }} alt="SalesBanner"/>
+      <div className="last-day-sale-data">
         {props.map((item, index) => (
-          <div key={index} className="lastDaySale">
-            <img src={item} />
+          <div key={index} className="last-day-sale">
+            <img src={item}  alt="Image"/>
           </div>
         ))}
       </div>

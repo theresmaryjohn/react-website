@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
-import fetchData from "../fetchData";
+import React, { useRef } from "react";
 import airasiacard from "../assets/airasia.webp";
 import arrow from "../assets/angle-right.svg";
 import "./Electronics.css";
 
-function Electronics({electronics:props}) {
+function Electronics({electronics: props}) {
   const image = useRef(null);
   const arrowRight = useRef(null);
   const arrowLeft = useRef(null);
@@ -23,32 +22,32 @@ function Electronics({electronics:props}) {
   };
 
   return (
-    <div className="mainContainer">
-      <div className="elecContainer">
-        <div className="bestofelec">
-          <div className="electext">
+    <div className="main-container">
+      <div className="electronics-container">
+        <div className="best-of-electronics">
+          <div className="electronics-text">
             <h2>Best of Electronics</h2>
             <a>VIEW ALL</a>
           </div>
         </div>
-        <div className="prevarrow" ref={arrowLeft} onClick={handleClickLeft}>
+        <div className="prev-arrow" ref={arrowLeft} onClick={handleClickLeft}>
           <img src={arrow} />
         </div>
-        <div className="scrollImg" ref={image}>
+        <div className="scroll-img" ref={image}>
           {props.map((item, index) => (
             <div className="electronics" key={index}>
-              <img src={item.imgurl} />
+              <img src={item.imgurl} alt="image" />
               <div className="type">{item.text}</div>
-              <div className="shopnow">{item.price}</div>
+              <div className="shop-now">{item.price}</div>
               <div className="brand">{item.para}</div>
             </div>
           ))}
         </div>
-        <div className="nextarrow" ref={arrowRight} onClick={handleClickRight}>
-          <img src={arrow} />
+        <div className="next-arrow" ref={arrowRight} onClick={handleClickRight}>
+          <img src={arrow} alt="Arrow"/>
         </div>
-        <div className="airasiaimg">
-          <img src={airasiacard} />
+        <div className="airasia-img">
+          <img src={airasiacard} alt="AirAsia" />
         </div>
       </div>
     </div>

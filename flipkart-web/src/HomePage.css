@@ -1,21 +1,21 @@
 @media screen and (min-width:320px) {
-  .mobContainer{
+  .mobile-container{
     display: block;
   }
-  .desktopContainer{
+  .desktop-container{
     display: none;
   }
 
 }
 @media screen and (min-width:1024px) {
-  .mobContainer{
+  .mobile-container{
     display: none;
   }
-  .desktopContainer{
+  .desktop-container{
     display: block;
     background-color: #e0e0e0;
   }
-  .itemsContainer{
+  .items-container{
     background-color: #e0e0e0;
     padding-inline-start: 6px;
     max-width: 1600px;

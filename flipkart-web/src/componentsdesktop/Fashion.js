@@ -20,36 +20,36 @@ function Fashion({fashion:props}) {
     image.current.style.transition = "transform ease-in-out 0.45s";
   };
   return (
-    <div className="fashionContainer">
-      <div className="bestoffashion">
-        <div className="fashiontext">
+    <div className="fashion-container">
+      <div className="best-of-fashion">
+        <div className="fashion-text">
           <h2>Fashion Top Deals</h2>
           <a>VIEW ALL</a>
         </div>
       </div>
       <div
-        className="prevarrowfashion"
+        className="prev-arrow-fashion"
         ref={arrowLeft}
         onClick={handleClickLeft}
       >
-        <img src={arrow} />
+        <img src={arrow} alt="Arrow" />
       </div>
-      <div className="scrollImgFashion" ref={image}>
+      <div className="scroll-img-fashion" ref={image}>
         {props.map((item, index) => (
-          <div className="fashiondeal" key={index}>
-            <img src={item.imgurl} />
+          <div className="fashion-deal" key={index}>
+            <img src={item.imgurl} alt="Image"/>
             <div className="type">{item.text}</div>
-            <div className="shopnow">{item.price}</div>
+            <div className="shop-now">{item.price}</div>
             <div className="brand">{item.para}</div>
           </div>
         ))}
       </div>
       <div
-        className="nextarrowfashion"
+        className="next-arrow-fashion"
         ref={arrowRight}
         onClick={handleClickRight}
       >
-        <img src={arrow} />
+        <img src={arrow} alt="Arrow" />
       </div>
     </div>
   );

@@ -4,10 +4,10 @@ import "./Categories.css";
 function Categories(props) {
 
   return (
-    <div className="imgIconsCat">
+    <div className="img-icons-categories">
       {props.categories.map((item) => (
-        <div className="imgDivCat">
-          <img src={item} />
+        <div className="img-division-categories">
+          <img src={item} alt="CategoriesImages" />
         </div>
       ))}
     </div>

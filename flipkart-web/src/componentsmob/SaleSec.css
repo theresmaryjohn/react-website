@@ -1,16 +1,16 @@
-.saledata img {
+.sale-data img {
   width: 64px;
 }
-.saledata {
+.sale-data {
   width: 64%;
   height: 85%;
 }
 
 @media screen and (min-width: 768px) {
-  .saledata img {
+  .sale-data img {
     width: 100px;
   }
-  .saleContainer {
+  .sale-container {
     display: flex;
     justify-content: space-around;
   }

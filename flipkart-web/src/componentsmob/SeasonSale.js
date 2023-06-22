@@ -1,19 +1,18 @@
-import React, { useState, useEffect } from "react";
-import fetchData from "../fetchData";
+import React from "react";
 import "./SeasonSale.css";
 
 function SeasonSale(props) {
 
   return (
     <div>
-      <div className="saletext">
-        <div className="salehead">End of Season Sale</div>
-        <div className="salep">Sponsered</div>
+      <div className="sale-text">
+        <div className="sale-head">End of Season Sale</div>
+        <div className="sale-paragraph">Sponsered</div>
       </div>
-      <div className="saleimgContainer">
+      <div className="sale-image-container">
         {props.seasonSale.map((item, index) => (
-          <div key={index} className="saleimg">
-            <img src={item} />
+          <div key={index} className="sale-image">
+            <img src={item} alt="SaleImage" />
           </div>
         ))}
       </div>
