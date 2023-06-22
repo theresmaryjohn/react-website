@@ -3,32 +3,42 @@
   padding-inline-start: 18px;
   padding-block-end: 20px;
 }
+
 .sale-head {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
+
 .sale-paragraph {
   color: #878787;
   font-size: 14px;
 }
+
 .sale-image-container {
   display: flex;
   flex-wrap: wrap;
 }
+
 .sale-image {
   width: 33%;
 }
+
 .sale-image img {
   width: 90%;
 }
+
 @media screen and (min-width: 768px) {
+
   .sale-head {
     font-size: 24px;
   }
+
   .sale-paragraph {
     font-size: 22px;
   }
+
   .sale-image img {
     width: 256px;
   }
+
 }

@@ -3,6 +3,7 @@
   padding-bottom: 9px;
   padding-inline: 5px;
 }
+
 .header-flipkart-first {
   display: flex;
   flex-direction: row;
@@ -10,43 +11,53 @@
   align-items: center;
   padding-block-start: 9px;
 }
+
 .image-flipkart img {
   height: 30px;
   width: 85px;
 }
+
 .image-flipkart {
   height: 45px;
   width: 85px;
 }
+
 .image-hamburger {
   width: 42px;
 }
+
 .image-hamburger img {
   padding-block-end: 9px;
 }
+
 .mobile-header {
   display: flex;
   align-items: center;
 }
+
 .cart-login {
   display: flex;
   flex-direction: row;
   height: 30px;
 }
+
 .login-section {
   color: white;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   height: 52px;
   width: 90px;
 }
+
 .plus-icon-image {
   height: 52px;
   width: 42px;
 }
+
 .cart-icon-image {
   height: 52px;
   width: 42px;
 }
+
 .search-input {
   display: flex;
   flex-direction: row;
@@ -56,22 +67,26 @@
   background-color: white;
   padding-inline: 4px;
 }
+
 .search-input img {
   height: 14px;
   width: 14px;
   padding-block-start: 4px;
   padding-inline-start: 9px;
 }
+
 .search-products {
   display: contents;
 }
+
 .search-input input {
   border: none;
   width: 92%;
   border-radius: 2px;
 }
+
 ::-webkit-input-placeholder {
   padding-inline-start: 10px;
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }

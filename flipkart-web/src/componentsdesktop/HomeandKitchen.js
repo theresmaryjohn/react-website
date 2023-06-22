@@ -21,16 +21,16 @@ function HomeandKitchen({home:props}) {
   };
   return (
     <div className="home-container">
-      <div className="best-of-homecontainer">
-        <div className="homecontainer-text">
+      <div className="best-of-home-container">
+        <div className="home-container-text">
           <h2>Home & Kitchen Essentials</h2>
           <a>VIEW ALL</a>
         </div>
       </div>
-      <div className="prev-arrow-homecontainer" ref={arrowLeft} onClick={handleClickLeft}>
+      <div className="prev-arrow-home-container" ref={arrowLeft} onClick={handleClickLeft}>
         <img src={arrow} alt="Arrow" />
       </div>
-      <div className="scroll-img-homecontainer" ref={image}>
+      <div className="scroll-img-home-container" ref={image}>
         {props.map((item, index) => (
           <div className="home-and-kitchen" key={index}>
             <img src={item.imgurl} />
@@ -41,7 +41,7 @@ function HomeandKitchen({home:props}) {
         ))}
       </div>
       <div
-        className="next-arrow-homecontainer"
+        className="next-arrow-home-container"
         ref={arrowRight}
         onClick={handleClickRight}
       >
