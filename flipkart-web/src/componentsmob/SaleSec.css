@@ -1,0 +1,20 @@
+.sale-data img {
+  width: 64px;
+}
+.sale-data {
+  width: 64%;
+  height: 85%;
+}
+
+@media screen and (min-width: 768px) {
+
+  .sale-data img {
+    width: 100px;
+  }
+
+  .sale-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}

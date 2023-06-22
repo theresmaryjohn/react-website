@@ -1,0 +1,30 @@
+@media screen and (min-width:320px) {
+
+  .mobile-container{
+    display: block;
+  }
+  .desktop-container{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+
+  .mobile-container{
+    display: none;
+  }
+
+  .desktop-container{
+    display: block;
+    background-color: #e0e0e0;
+  }
+
+  .items-container{
+    background-color: #e0e0e0;
+    padding-inline-start: 6px;
+    max-width: 1600px;
+    margin-inline: auto;
+  }
+
+}

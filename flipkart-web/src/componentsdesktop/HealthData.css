@@ -1,0 +1,120 @@
+@media screen and (min-width: 1024px) {
+
+  .best-of-health {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: white;
+  }
+
+  .health-text {
+    width: 230px;
+    padding: 68px 10px 110px;
+    background-image: url(../assets/backgrd.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .health-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 352px;
+    margin-block-end: 18px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  .scroll-img-health {
+    display: flex;
+    width: 67%;
+  }
+
+  .health-care {
+    padding: 25px 15px;
+  }
+
+  .health-care img {
+    width: 160px;
+    height: 165px;
+    margin-inline: 23.5px;
+  }
+
+  .type {
+    margin: 15px 0 0;
+    color: #212121;
+    font-size: 14px;
+    font-family: 'Roboto-m';
+  }
+
+  .shop-now {
+    padding: 8px 0 0;
+    color: #388e3c;
+    font-size: 16px;
+    font-family: 'Roboto';
+  }
+
+  .brand {
+    padding: 7px 0 0;
+    color: gray;
+    font-size: 14px;
+    font-family: 'Roboto';
+  }
+
+  .health-text h2 {
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 100;
+  }
+
+  .health-text a {
+    padding: 10px 20px;
+    font-size: 13px;
+    font-family: 'Roboto-m';
+    color: #fff;
+    background: #2874f0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+  }
+
+  .next-arrow-health {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+    right: 7px;
+    width: 47px;
+    height: 104px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+  }
+
+  .next-arrow-health img {
+    transform: rotate(180deg);
+  }
+
+  .prev-arrow-health {
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+    top: calc(46% - 52px);
+    left: 270px;
+    width: 47px;
+    height: 104px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .scroll-img-health {
+    width: 83%;
+  }
+
+}
