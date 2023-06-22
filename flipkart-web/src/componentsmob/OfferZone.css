@@ -1,27 +1,33 @@
 .banner {
   width: 100%;
 }
+
 .offers img {
   width: 52%;
   height: 57%;
 }
+
 .offers {
   width: 50%;
 }
+
 .offer-container {
   display: flex;
   flex-wrap: wrap;
   padding-block: 28px;
-  background: white;
   width: 90%;
+  background: white;
 }
+
 .paragraph {
   font-size: 12px;
 }
+
 .text-price {
   font-size: 14px;
   color: #388e3c;
 }
+
 .main-offer-container {
   display: flex;
   flex-direction: column;
@@ -29,6 +35,7 @@
   position: relative;
   background: linear-gradient(rgb(252, 167, 216), rgb(252, 167, 216));
 }
+
 .grab-items {
   position: absolute;
   display: flex;
@@ -38,29 +45,36 @@
   top: 21px;
   gap: 133px;
 }
+
 .grab-items-view {
   background: #ffff;
   padding: 8px 12px;
   color: #515e71;
   font-size: 14px;
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
+
 .grab-items-text {
   color: #ffff;
 }
+
 @media screen and (min-width: 768px) {
+
   .grab-items {
     gap: 333px;
     top: 60px;
   }
+
   .grab-items-view {
     font-size: 18px;
     color: white;
     background-color: darkblue;
   }
+
   .grab-items-wtext {
     font-size: 21px;
     color: black;
   }
+
 }
