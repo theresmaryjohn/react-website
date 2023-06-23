@@ -1,40 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./AzureInnovating.css";
 
-function AzureInnovating() {
-  const [icon, setIcon] = useState([]);
-  const [data, setData] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
-
-  const fetchData = () => {
-    fetch(
-      "https://raw.githubusercontent.com/theresmaryjohn/react-website/main/azure-website-clone/public/data.json"
-    )
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        setFilteredData([data.customersinnovating[0]]);
-        setIcon(data.customersinnovatingicons);
-        setData(data.customersinnovating);
-      });
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  function handleClick(id) {
-    let filtered = data.filter((item) => item.id === id);
-    setFilteredData(filtered);
-  }
-
+function AzureInnovating({icon, filteredData, handleClick}) {
   return (
     <div>
-      <div className="innovationHead">
+      <div className="innovation-head">
         Find out how these customers are innovating with Azure
       </div>
-      <div className="azureInnovation">
+      <div className="azure-innovation">
         {icon?.map((item, id) => (
           <div className="customers" key={id}>
             <div onClick={() => handleClick(item.id)}>
@@ -43,13 +16,13 @@ function AzureInnovating() {
           </div>
         ))}
       </div>
-      <div className="innovatingCards">
+      <div className="innovating-cards">
         {filteredData?.map((item, id) => (
-          <div className="azureCustomers" key={id}>
+          <div className="azure-customers" key={id}>
             <img src={item.imgurl} alt="" />
-            <div className="textArea">
+            <div className="text-area">
               <span>{item.text}</span>
-              <a className="caseStudy">{item.caseurl}</a>
+              <a className="case-study">{item.caseurl}</a>
               <a className="work">{item.customerswork}</a>
             </div>
           </div>

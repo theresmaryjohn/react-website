@@ -3,12 +3,14 @@
     width: 6px;
     transform: translateY(-1px);
 }
+
 .app-list{
     display: flex;
     align-items: center;
     margin-left: 12px;
     transform: translateY(-1px);
 }
+
 .list-item{
     padding-inline: 5px;
     font-size: 13px;

@@ -13,7 +13,7 @@ let arr=[
   return (
     <div className="app-listitem">
       {arr.map((obj) => {
-        return <div className="list_item" key={obj.title}>{obj.title}</div>;
+        return <div className="list-item" key={obj.title}>{obj.title}</div>;
       })}
     </div>
   )

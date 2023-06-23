@@ -1,84 +1,38 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./AzureProducts.css";
 
-function AzureProducts() {
-  const [feature, setFetured] = useState([]);
-  const [machine, setMachine] = useState([]);
-  const [compute, setCompute] = useState([]);
-  const [container, setContainer] = useState([]);
-  const [hybrid, setHybrid] = useState([]);
-  const [internet, setInternet] = useState([]);
-  const [show, setShow] = useState("feature");
-  // const [isActive, setIsActive] = useState(false);
-
-  const fetchData = () => {
-    fetch(
-      "https://raw.githubusercontent.com/theresmaryjohn/react-website/main/azure-website-clone/public/data.json"
-    )
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        setFetured(data.featured);
-        setMachine(data.machinelearning);
-        setCompute(data.compute);
-        setContainer(data.containers);
-        setHybrid(data.hybrid);
-        setInternet(data.internet);
-      });
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-
-  function handleClickOne() {
-    setShow("feature");
-    // const style=setShow("feature")?{borderInlineStart:"2px solid #0067b8",color: "#0067b8"}:"";
-  }
-  function handleClickTwo() {
-    setShow("machine");
-  }
-  function handleClickThree() {
-    setShow("compute");
-  }
-  function handleClickFour() {
-    setShow("container");
-  }
-  function handleClickFive() {
-    setShow("hybrid");
-  }
-  function handleClickSix() {
-    setShow("internet");
-  }
+function AzureProducts({feature,
+  machine,
+  compute,
+  container,
+  hybrid,
+  internet,
+  show,
+  handleClickFeature,
+  handleClickMachine,
+  handleClickCompute,
+  handleClickContainer,
+  handleClickHybrid,
+  handleClickInternet}) {
   return (
     <div className="container">
-      <div className="productHead">
-        <div className="scrollbar">
-          {/* <a
-              style={{
-              borderInlineStart:isActive ? "2px solid #0067b8" : " ",
-              color: isActive ? "#0067b8" : " ",
-            }}
-            onClick={handleClickOne}>
-            Feature
-          </a> */}
-          <a onClick={handleClickOne}>Feature</a>
-          <a onClick={handleClickTwo}> Al + machine learning</a>
-          <a onClick={handleClickThree}>Compute</a>
-          <a onClick={handleClickFour}>Containers</a>
-          <a onClick={handleClickFive}>Hybrid + multicloud</a>
-          <a onClick={handleClickSix}>Internet of Things (IoT)</a>
+      <div className="product-head">
+        <div className="scroll-bar">
+          <a onClick={handleClickFeature}>Feature</a>
+          <a onClick={handleClickMachine}> Al + machine learning</a>
+          <a onClick={handleClickCompute}>Compute</a>
+          <a onClick={handleClickContainer}>Containers</a>
+          <a onClick={handleClickHybrid}>Hybrid + multicloud</a>
+          <a onClick={handleClickInternet}>Internet of Things (IoT)</a>
         </div>
-        <div className="imgCards">
+        <div className="img-cards">
           {show === "feature" && (
-            <div className="azureFeatured">
+            <div className="azure-featured">
               {feature.map((item, index) => (
-                <div className="azureCard" key={index}>
+                <div className="azure-card" key={index}>
                   <div>
                     <img src={item.imgurl} alt="" />
-                    <div className="azureText">
+                    <div className="azure-text">
                       <p>{item.text}</p>
                       <span>{item.heading}</span>
                     </div>
@@ -88,14 +42,14 @@ function AzureProducts() {
             </div>
           )}
         </div>
-        <div className="imgCards">
+        <div className="img-cards">
           {show === "machine" && (
-            <div className="azureFeatured">
+            <div className="azure-featured">
               {machine.map((item, index) => (
-                <div className="azureCard" key={index}>
+                <div className="azure-card" key={index}>
                   <div>
                     <img src={item.imgurl} alt="" />
-                    <div className="azureText">
+                    <div className="azure-text">
                       <p>{item.text}</p>
                       <span>{item.heading}</span>
                     </div>
@@ -105,14 +59,14 @@ function AzureProducts() {
             </div>
           )}
         </div>
-        <div className="imgCards">
+        <div className="img-cards">
           {show === "compute" && (
-            <div className="azureFeatured">
+            <div className="azure-featured">
               {compute.map((item, index) => (
-                <div className="azureCard" key={index}>
+                <div className="azure-card" key={index}>
                   <div>
                     <img src={item.imgurl} alt="" />
-                    <div className="azureText">
+                    <div className="azure-text">
                       <p>{item.text}</p>
                       <span>{item.heading}</span>
                     </div>
@@ -122,14 +76,14 @@ function AzureProducts() {
             </div>
           )}
         </div>
-        <div className="imgCards">
+        <div className="img-cards">
           {show === "container" && (
-            <div className="azureFeatured">
+            <div className="azure-featured">
               {container.map((item, index) => (
-                <div className="azureCard" key={index}>
+                <div className="azure-card" key={index}>
                   <div>
                     <img src={item.imgurl} alt="" />
-                    <div className="azureText">
+                    <div className="azure-text">
                       <p>{item.text}</p>
                       <span>{item.heading}</span>
                     </div>
@@ -139,14 +93,14 @@ function AzureProducts() {
             </div>
           )}
         </div>
-        <div className="imgCards">
+        <div className="img-cards">
           {show === "hybrid" && (
-            <div className="azureFeatured">
+            <div className="azure-featured">
               {hybrid.map((item, index) => (
-                <div className="azureCard" key={index}>
+                <div className="azure-card" key={index}>
                   <div>
                     <img src={item.imgurl} alt="" />
-                    <div className="azureText">
+                    <div className="azure-text">
                       <p>{item.text}</p>
                       <span>{item.heading}</span>
                     </div>
@@ -156,14 +110,14 @@ function AzureProducts() {
             </div>
           )}
         </div>
-        <div className="imgCards">
+        <div className="img-cards">
           {show === "internet" && (
-            <div className="azureFeatured">
+            <div className="azure-featured">
               {internet.map((item, index) => (
-                <div className="azureCard" key={index}>
+                <div className="azure-card" key={index}>
                   <div>
                     <img src={item.imgurl} alt="" />
-                    <div className="azureText">
+                    <div className="azure-text">
                       <p>{item.text}</p>
                       <span>{item.heading}</span>
                     </div>

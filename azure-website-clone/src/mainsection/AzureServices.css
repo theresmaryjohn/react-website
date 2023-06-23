@@ -1,26 +1,30 @@
-.azurefeaturedHead h2{
-    font-size: 19px;
-    font-family: "Segoe UI 600";
-    text-align: center;
+.azure-featured-head h2{
     padding-inline:12px;
     padding-top: 72px;
     padding-bottom: 48px;
+    font-size: 19px;
+    font-family: 'Segoe UI 600';
+    text-align: center;
 }
-.seeAll::after{
+
+.see-all::after{
     content: " >";
 }
-.seeAll{
+
+.see-all{
+    padding-inline: 12px;
+    padding-block: 24px;
     text-decoration: none;
     color: #0067b8;
     font-size: 16px;
-    font-family: "Segoe UI 600";
-    padding-inline: 12px;
-    padding-block: 24px;
+    font-family: 'Segoe UI 600';
 }
 
 @media screen and (min-width:1024px) {
-    .seeAll{
+
+    .see-all{
         display: flex;
         justify-content: center;
     }
+
 }

@@ -1,38 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import button from '../assets/playbutton.png'
 import "./Developer.css";
 
-function Developer() {
-  const [data, setData] = useState([]);
-
-  const fetchData = () => {
-    fetch(
-      "https://raw.githubusercontent.com/theresmaryjohn/react-website/main/azure-website-clone/public/data.json"
-    )
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        setData(data.voiceassistant);
-      });
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
+function Developer({developer}) {
 
   return (
-    <div className="developerStories">
-      <div className="imgContainerdev">
-        <img src={data.imageurlcofounder} />
+    <div className="developer-stories">
+      <div className="img-container-developer">
+        <img src={developer.imageurlcofounder} alt="" />
       </div>
-      <div className="devContainer">
-        <div className="containerdev">
-          <h2>{data.textabout}</h2>
-          <div className="devKnowMore">
-          <span><img src={button}/>{data.buttonwatch}</span>
+      <div className="developer-container">
+        <div className="container-developer">
+          <h2>{developer.textabout}</h2>
+          <div className="developer-know-more">
+          <span><img src={button} alt=""/>{developer.buttonwatch}</span>
           <a href="https://azure.microsoft.com/en-in/resources/developers/stories/">
-            {data.buttonstories}
+            {developer.buttonstories}
           </a>
           </div>
         </div>

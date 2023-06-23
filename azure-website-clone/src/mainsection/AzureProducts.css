@@ -1,82 +1,92 @@
 
-.scrollbar{
+.scroll-bar{
     display: flex;
     overflow: scroll;
     text-align: center;
     border-bottom: 1px solid #505050;
 }
 
-.scrollbar::-webkit-scrollbar{
+.scroll-bar::-webkit-scrollbar{
     display: none;
 }
-.scrollbar a{
+
+.scroll-bar a{
     padding: 8px 24px;
     font-size: 16px;
-    font-family: "Segoe UI 600";
+    font-family: 'Segoe UI 600';
     color: #505050;
     white-space: nowrap;
 
 }
-.imgCards img{
+
+.img-cards img{
     height: 40px;
     width: 40px;
     padding-block-start: 1.5rem;
     padding-inline: 1.5rem;
 }
-.azureFeatured{
+
+.azure-featured{
     display: flex;
     flex-direction: column;
     gap: 24px;
     padding: 0px 24px;
     padding-block: 34px;
 }
-.azureCard{
+
+.azure-card{
+    padding-bottom: 1.5rem;
     text-align: center;
     box-shadow: 0 .375rem .875rem 0 rgba(0,0,0,.13),0 .0625rem .25rem 0 rgba(0,0,0,.11);
     border-radius: 5px;
-    padding-bottom: 1.5rem;
 }
-.azureCard p{
+.azure-card p{
     padding: 24px 24px 0px;
     padding-bottom: 1.5rem;
 }
-.azureText span{
+.azure-text span{
+    padding: 6px;
     color: #0067b8;
-    font-family: "Segoe UI 600";
+    font-family: 'Segoe UI 600';
     font-size: 18px;
     text-decoration: underline;
-    padding: 6px;
 }
+
 @media screen and (min-width:1024px) {
+
     .container{
         padding-inline: 18px;
     }
-    .scrollbar{
+
+    .scroll-bar{
         display: flex;
         flex-direction: column;
-        border-bottom: none;
         text-align: left;
         justify-content: center;
+        border-bottom: none;
     }
-    .scrollbar a{
+
+    .scroll-bar a{
         margin-bottom: 16px;
     }
-    .productHead{
+
+    .product-head{
         display: flex;
         flex-direction: row;
     }
 
-    .azureFeatured{
+    .azure-featured{
         display: grid;
         grid-template-columns: 22vw 22vw 22vw;
-
     }
-    .azureText span{
+
+    .azure-text span{
         font-size: 1rem;
-        padding: 0px;
+        padding: 0;
     }
 
 }
+
 @media screen and (min-width:1400px) {
 
     .container{

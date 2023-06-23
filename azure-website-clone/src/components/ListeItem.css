@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
 }
-.list_item:nth-of-type(4){
+.list-item:nth-of-type(4){
     background-color: #89c402;
     border: 1px solid #6f9e02;
     border-radius: 4px;
@@ -13,11 +13,11 @@
     line-height: 1;
     text-align: center;
 }
-.list_item{
+.list-item{
     padding-inline:15px;
     font-size: 14px;
 }
-.list_item:nth-of-type(1),
-.list_item:nth-of-type(2){
+.list-item:nth-of-type(1),
+.list-item:nth-of-type(2){
     padding: 6px;
 }

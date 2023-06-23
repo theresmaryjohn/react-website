@@ -1,70 +1,80 @@
-.imgmodernization img{
+.img-modernization img{
     width: 100%;
 }
-.containerModernization{
-    background-color: #f8f9fa;
 
+.container-modernization{
+    background-color: #f8f9fa;
 }
+
 .modernization{
     width: 100%;
     padding-bottom: 48px;
-
 }
-.textButton{
+
+.text-button{
     padding: 24px;
 }
 
-.textButton h2{
+.text-button h2{
     margin-bottom: 12px;
     margin-top: 0px;
     font-size: 24px;
-    font-family: "Segoe UI 600";
+    font-family: 'Segoe UI 600';
 }
-.textButton a{
+
+.text-button a{
+    padding: 10px 12px;
     color: #0078d4;
     border:2px solid #0078d4;
     text-decoration: none;
     font-size: 1rem;
-    font-family: "Segoe UI 600";
-    padding: 10px 12px;
+    font-family: 'Segoe UI 600';
+}
 
-}
-.textButton span{
-    margin-top: 24px;
+.text-button span{
     position: relative;
-   top: 21px;
+    top: 21px;
+    margin-top: 24px;
 }
+
 @media screen and (min-width:1024px) {
+
     .modernization{
         display: flex;
         align-items: center;
-
     }
-    .containerModernization{
+
+    .container-modernization{
         position:relative;
         bottom: 57px;
     }
 }
+
 @media screen and (min-width:1440px) {
 
-    .imgmodernization img{
+    .img-modernization img{
         width:580px;
         padding-inline-start: 72px;
     }
-    .containerModernization{
+
+    .container-modernization{
         position: relative;
         bottom: 181px;
     }
+
     .modernization{
         max-width: 1600px;
         margin-inline: auto;
         padding-block-start: 48px;
     }
-    .textButton h2{
+
+    .text-button h2{
         font-size: 37px;
         width: 85%;
     }
-    .textButton{
+
+    .text-button{
         padding: 48px;
     }
+
 }

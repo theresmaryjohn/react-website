@@ -101,16 +101,20 @@
 .know-more-details {
   display: none;
 }
+
 @media screen and (min-width: 768px) {
+
   .azure-icon {
     display: flex;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .azure-footer-mob {
     position: relative;
     top: 196px;
   }
+
   .know-more-details {
     display: flex;
     flex-direction: column;
@@ -120,31 +124,38 @@
     font-family: "Segoe UI";
     font-weight: 400;
   }
+
   .know-more-details li {
     padding: 7px 0;
   }
+
   .exploremob {
     background-color: transparent;
     padding: 0px;
   }
+
   .know-more-mob {
     display: none;
   }
+
   .explore-mob {
     display: grid;
     column-gap: 7px;
     grid-template-columns: repeat(6, 1fr);
     align-items: flex-start;
   }
+
   .explore-mob b {
     white-space: nowrap;
   }
+
   .azure-icon,
   .explore-mob,
   .info-mob {
     max-width: 1600px;
     margin-inline: auto;
   }
+
   .icon-text-mob {
     justify-content: flex-start;
   }
@@ -163,7 +174,9 @@
     margin-top: -7px;
   }
 }
+
 @media screen and (min-width: 1440px){
+
     .azure-footer-mob{
         position: relative;
         top: 187px;

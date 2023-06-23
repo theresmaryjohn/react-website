@@ -1,31 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./AzureBuild.css";
 
-function AzureBuild() {
-  const [data, setData] = useState([]);
-
-  const fetchData = () => {
-    fetch(
-      "https://raw.githubusercontent.com/theresmaryjohn/react-website/main/azure-website-clone/public/data.json"
-    )
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        setData(data.contentcards);
-      });
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
+function AzureBuild({build}) {
 
   return (
-    <div className="azureBuild">
-      {data.map((item, index) => (
-        <div className="buildContainer" key={index}>
+    <div className="azure-build">
+      {build.map((item, index) => (
+        <div className="build-container" key={index}>
           <img src={item.imgurl} />
-          <div className="buildText">
+          <div className="build-text">
             <span>{item.heading}</span>
             <p>{item.text}</p>
           </div>

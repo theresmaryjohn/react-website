@@ -1,58 +1,69 @@
-.cloudSection{
+.cloud-section{
     padding-inline:12px ;
 }
-.cloudHeader{
+
+.cloud-header{
     font-size: 19px;
-    font-family: "Segoe UI 600";
+    font-family: 'Segoe UI 600';
 }
-.cloudCards tr{
+
+.cloud-cards tr{
     display: flex;
     flex-direction: column;
-    margin-bottom: 3rem;
-    padding-bottom: 24px;
     max-width: 100%;
     height: 100%;
+    margin-bottom: 3rem;
+    padding-bottom: 24px;
     background-color: #fff;
     color: #000;
     box-shadow:0 0.1875rem 0.4375rem 0 rgba(0,0,0,.13), 0 0.0625rem 0.125rem 0 rgba(0,0,0,.11) ;
 }
-.cloudText{
-    padding: 24px 24px 0px;
+
+.cloud-text{
+    padding: 24px 24px 0;
 }
-.cloudText span{
+
+.cloud-text span{
     color: #0067b8;
-    font-family: "Segoe UI 600";
+    font-family: 'Segoe UI 600';
     font-size: 18px;
     text-decoration: underline;
 }
-.cloudText p{
+
+.cloud-text p{
     font-size: 16px;
     line-height: 1.5;
 }
-.cloudButtons a{
+
+.cloud-buttons a{
+    padding: 7px 8px;
     background-color: transparent;
     color: #0078d4;
     font-size: 16px;
-    font-family: "Segoe UI 600";
+    font-family: 'Segoe UI 600';
     border:2px solid #0078d4;
     text-decoration: none;
-    padding: 7px 8px;
 }
-.cloudButtons p{
+
+.cloud-buttons p{
     padding: 16px 24px;
     text-align: center;
 }
+
 @media screen and (min-width: 1024px) {
-    .cloudCards{
+
+    .cloud-cards{
         display: grid;
         grid-template-columns:30vw 30vw 30vw;
         gap: 20px;
         padding-inline: 20px;
     }
-    .cloudCards tr{
+
+    .cloud-cards tr{
         height:88%;
     }
-    .cloudHeader{
+
+    .cloud-header{
         text-align: center;
         margin: 24px 0px;
         padding: 8px 0px 16px;
@@ -61,22 +72,26 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .cloudCards{
+
+    .cloud-cards{
         display: grid;
         grid-template-columns:30vw 30vw 30vw;
         gap: 20px;
         padding-inline: 40px;
     }
-    .cloudCards tr{
+
+    .cloud-cards tr{
         height:88%;
     }
-    .cloudText span{
+
+    .cloud-text span{
         font-size: 21px;
     }
-    .cloudHeader{
+
+    .cloud-header{
         text-align: center;
         font-size: 24px;
-        margin: 24px 0px;
-        padding: 8px 0px 16px ;
+        margin: 24px 0;
+        padding: 8px 0 16px ;
     }
 }

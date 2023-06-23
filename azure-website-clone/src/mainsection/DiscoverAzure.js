@@ -1,33 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./DiscoverAzure.css";
 
-function DiscoverAzure() {
-  const [data, setData] = useState([]);
-
-  const fetchData = () => {
-    fetch(
-      "https://raw.githubusercontent.com/theresmaryjohn/react-website/main/azure-website-clone/public/data.json"
-    )
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        setData(data.discover);
-      });
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
+function DiscoverAzure({discover}) {
 
   return(
     <div className="discover">
         <h2>Discover what's happening on Azure</h2>
-        <div className="discoverContainer" >
-            {data.map((item,index)=>(
-                <div className="discoverCards" key={index}>
+        <div className="discover-container" >
+            {discover.map((item,index)=>(
+                <div className="discover-cards" key={index}>
                     <img src={item.imgurl}/>
-                    <div className="textsContainer">
+                    <div className="texts-container">
                     <h3>{item.heading}</h3>
                     <p>{item.text}</p>
                     <a href="https://azure.microsoft.com/en-in/solutions/ai/">{item.buttontext}</a>
